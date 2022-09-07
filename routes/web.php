@@ -4,6 +4,10 @@ use Illuminate\Support\Facades\Route;
 use App\Http\Controllers\HomeController;
 use App\Http\Controllers\AboutController;
 use App\Http\Controllers\HomepageController;
+use App\Http\Controllers\CartController;
+use App\Http\Controllers\CheckoutController;
+use App\Http\Controllers\ContactController;
+use App\Http\Controllers\MyAccountController;
 
 /*
 |--------------------------------------------------------------------------
@@ -27,3 +31,12 @@ Route::get('/home', [App\Http\Controllers\HomeController::class, 'index'])->name
 Route::resource('/about', AboutController::class);
 
 Route::resource('/homepage', HomepageController::class);
+
+Route::resource('/cart', CartController::class);
+
+Route::resource('/checkout', CheckoutController::class);
+
+Route::resource('/contact-us', ContactController::class);
+
+Route::resource('/my-account', MyAccountController::class);
+
