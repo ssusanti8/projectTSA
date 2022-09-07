@@ -8,6 +8,10 @@ use App\Http\Controllers\CartController;
 use App\Http\Controllers\CheckoutController;
 use App\Http\Controllers\ContactController;
 use App\Http\Controllers\MyAccountController;
+use App\Http\Controllers\ServiceController;
+use App\Http\Controllers\ShopController;
+use App\Http\Controllers\ShopDetailController;
+use App\Http\Controllers\WishlistController;
 
 /*
 |--------------------------------------------------------------------------
@@ -40,3 +44,10 @@ Route::resource('/contact-us', ContactController::class);
 
 Route::resource('/my-account', MyAccountController::class);
 
+Route::resource('/service', ServiceController::class);
+
+Route::resource('/shop', ShopController::class);
+
+Route::resource('/shop-detail', ShopDetailController::class);
+
+Route::resource('/wishlist', WishlistController::class);
