@@ -20,7 +20,7 @@
                 <div class="col-lg-12">
                     <h2>Shop Detail</h2>
                     <ul class="breadcrumb">
-                        <li class="breadcrumb-item"><a href="#">Shop</a></li>
+                        <li class="breadcrumb-item"><a href="/homepage">Home</a></li>
                         <li class="breadcrumb-item active">Shop Detail </li>
                     </ul>
                 </div>
