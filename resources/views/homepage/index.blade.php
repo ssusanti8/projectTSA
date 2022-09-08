@@ -2,6 +2,12 @@
 
 @section('container')
 
+    <?php   
+    echo '<script type ="text/JavaScript">';  
+    echo 'alert("Selamat Datang di Furniture Shop Happy shopping")';  
+    echo '</script>';  
+    ?>  
+
     <!-- Start Top Search -->
     <div class="top-search">
         <div class="container">

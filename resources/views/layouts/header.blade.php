@@ -39,6 +39,13 @@
                     <ul>
                         <li class="search"><a href="#"><i class="fa fa-search"></i></a></li>
                         <li class="side-menu">
+                        <!-- <div class="alert alert-primary" role="alert">
+                        Anda belum memasukkan apapun <a href="#" class="alert-link"><i class="fa fa-shopping-bag"></i>
+								<span class="badge">3</span>
+								<p>My Cart</p></a>
+                        </div>
+                        </li> -->
+                        <li class="side-menu">
 							<a href="#">
 								<i class="fa fa-shopping-bag"></i>
 								<span class="badge">3</span>
