@@ -24,7 +24,7 @@
     <div id="slides-shop" class="cover-slides">
         <ul class="slides-container">
             <li class="text-center">
-                <img src="images/banner-01.jpg" alt="">
+                <img src="images/rumah.jpeg" alt="">
                 <div class="container">
                     <div class="row">
                         <div class="col-md-12">
@@ -36,7 +36,7 @@
                 </div>
             </li>
             <li class="text-center">
-                <img src="images/banner-02.jpg" alt="">
+                <img src="images/rumah1.jpeg" alt="">
                 <div class="container">
                     <div class="row">
                         <div class="col-md-12">
@@ -48,7 +48,7 @@
                 </div>
             </li>
             <li class="text-center">
-                <img src="images/banner-03.jpg" alt="">
+                <img src="images/rumah.jpeg" alt="">
                 <div class="container">
                     <div class="row">
                         <div class="col-md-12">
@@ -73,20 +73,20 @@
             <div class="row">
                 <div class="col-lg-4 col-md-4 col-sm-12 col-xs-12">
                     <div class="shop-cat-box">
-                        <img class="img-fluid" src="images/categories_img_01.jpg" alt="" />
-                        <a class="btn hvr-hover" href="#">Lorem ipsum dolor</a>
+                        <img class="img-fluid" src="images/rumah3.jpeg" alt="" />
+                        <a class="btn hvr-hover" href="#">Luas 20 x 30</a>
                     </div>
                 </div>
                 <div class="col-lg-4 col-md-4 col-sm-12 col-xs-12">
                     <div class="shop-cat-box">
-                        <img class="img-fluid" src="images/categories_img_02.jpg" alt="" />
-                        <a class="btn hvr-hover" href="#">Lorem ipsum dolor</a>
+                        <img class="img-fluid" src="images/rumah4.jpeg" alt="" />
+                        <a class="btn hvr-hover" href="#">Luas 16 x 39</a>
                     </div>
                 </div>
                 <div class="col-lg-4 col-md-4 col-sm-12 col-xs-12">
                     <div class="shop-cat-box">
-                        <img class="img-fluid" src="images/categories_img_03.jpg" alt="" />
-                        <a class="btn hvr-hover" href="#">Lorem ipsum dolor</a>
+                        <img class="img-fluid" src="images/rumah2.jpeg" alt="" />
+                        <a class="btn hvr-hover" href="#">Luas 24 x 40</a>
                     </div>
                 </div>
             </div>
@@ -99,12 +99,12 @@
 			<div class="row">
 				<div class="col-lg-6 col-md-6 col-sm-12">
 					<div class="offer-box-products">
-						<img class="img-fluid" src="images/add-img-01.jpg" alt="" />
+						<img class="img-fluid" src="images/rumah3.jpeg" alt="" />
 					</div>
 				</div>
 				<div class="col-lg-6 col-md-6 col-sm-12">
 					<div class="offer-box-products">
-						<img class="img-fluid" src="images/add-img-02.jpg" alt="" />
+						<img class="img-fluid" src="images/rumah2.jpeg" alt="" />
 					</div>
 				</div>
 			</div>
@@ -117,7 +117,7 @@
             <div class="row">
                 <div class="col-lg-12">
                     <div class="title-all text-center">
-                        <h1>Fruits & Vegetables</h1>
+                        <h1>News House</h1>
                         <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed sit amet lacus enim.</p>
                     </div>
                 </div>
@@ -141,7 +141,7 @@
                             <div class="type-lb">
                                 <p class="sale">Sale</p>
                             </div>
-                            <img src="images/img-pro-01.jpg" class="img-fluid" alt="Image">
+                            <img src="images/rumah1.jpeg" class="img-fluid" alt="Image">
                             <div class="mask-icon">
                                 <ul>
                                     <li><a href="#" data-toggle="tooltip" data-placement="right" title="View"><i class="fas fa-eye"></i></a></li>
@@ -164,7 +164,7 @@
                             <div class="type-lb">
                                 <p class="new">New</p>
                             </div>
-                            <img src="images/img-pro-02.jpg" class="img-fluid" alt="Image">
+                            <img src="images/rumah1.jpeg" class="img-fluid" alt="Image">
                             <div class="mask-icon">
                                 <ul>
                                     <li><a href="#" data-toggle="tooltip" data-placement="right" title="View"><i class="fas fa-eye"></i></a></li>
@@ -187,7 +187,7 @@
                             <div class="type-lb">
                                 <p class="sale">Sale</p>
                             </div>
-                            <img src="images/img-pro-03.jpg" class="img-fluid" alt="Image">
+                            <img src="images/rumah3.jpeg" class="img-fluid" alt="Image">
                             <div class="mask-icon">
                                 <ul>
                                     <li><a href="#" data-toggle="tooltip" data-placement="right" title="View"><i class="fas fa-eye"></i></a></li>
@@ -210,7 +210,7 @@
                             <div class="type-lb">
                                 <p class="sale">Sale</p>
                             </div>
-                            <img src="images/img-pro-04.jpg" class="img-fluid" alt="Image">
+                            <img src="images/rumah4.jpeg" class="img-fluid" alt="Image">
                             <div class="mask-icon">
                                 <ul>
                                     <li><a href="#" data-toggle="tooltip" data-placement="right" title="View"><i class="fas fa-eye"></i></a></li>
