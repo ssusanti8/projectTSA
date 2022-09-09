@@ -2,12 +2,6 @@
 
 @section('container')
 
-    <?php   
-    echo '<script type ="text/JavaScript">';  
-    echo 'alert("Selamat Datang di Furniture Shop Happy shopping")';  
-    echo '</script>';  
-    ?>  
-
     <!-- Start Top Search -->
     <div class="top-search">
         <div class="container">
@@ -28,7 +22,7 @@
                 <div class="container">
                     <div class="row">
                         <div class="col-md-12">
-                            <h1 class="m-b-20"><strong>Welcome To <br> Furniture Shop</strong></h1>
+                            <h1 class="m-b-20"><strong>Welcome To <br> Sell House </strong></h1>
                             <p class="m-b-40">See how your users experience your website in realtime or view <br> trends to see any changes in performance over time.</p>
                             <p><a class="btn hvr-hover" href="#">Shop New</a></p>
                         </div>
@@ -40,7 +34,7 @@
                 <div class="container">
                     <div class="row">
                         <div class="col-md-12">
-                            <h1 class="m-b-20"><strong>Welcome To <br> Furniture Shop</strong></h1>
+                            <h1 class="m-b-20"><strong>Welcome To <br> Sell House </strong></h1>
                             <p class="m-b-40">See how your users experience your website in realtime or view <br> trends to see any changes in performance over time.</p>
                             <p><a class="btn hvr-hover" href="#">Shop New</a></p>
                         </div>
@@ -52,7 +46,7 @@
                 <div class="container">
                     <div class="row">
                         <div class="col-md-12">
-                            <h1 class="m-b-20"><strong>Welcome To <br> Furniture Shop</strong></h1>
+                            <h1 class="m-b-20"><strong>Welcome To <br> Sell House </strong></h1>
                             <p class="m-b-40">See how your users experience your website in realtime or view <br> trends to see any changes in performance over time.</p>
                             <p><a class="btn hvr-hover" href="#">Shop New</a></p>
                         </div>
@@ -74,19 +68,19 @@
                 <div class="col-lg-4 col-md-4 col-sm-12 col-xs-12">
                     <div class="shop-cat-box">
                         <img class="img-fluid" src="images/rumah3.jpeg" alt="" />
-                        <a class="btn hvr-hover" href="#">Luas 20 x 30</a>
+                        <a class="btn hvr-hover" href="#">Large 20 x 30</a>
                     </div>
                 </div>
                 <div class="col-lg-4 col-md-4 col-sm-12 col-xs-12">
                     <div class="shop-cat-box">
                         <img class="img-fluid" src="images/rumah4.jpeg" alt="" />
-                        <a class="btn hvr-hover" href="#">Luas 16 x 39</a>
+                        <a class="btn hvr-hover" href="#">Large 16 x 39</a>
                     </div>
                 </div>
                 <div class="col-lg-4 col-md-4 col-sm-12 col-xs-12">
                     <div class="shop-cat-box">
                         <img class="img-fluid" src="images/rumah2.jpeg" alt="" />
-                        <a class="btn hvr-hover" href="#">Luas 24 x 40</a>
+                        <a class="btn hvr-hover" href="#">Large 24 x 40</a>
                     </div>
                 </div>
             </div>
@@ -118,7 +112,7 @@
                 <div class="col-lg-12">
                     <div class="title-all text-center">
                         <h1>News House</h1>
-                        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed sit amet lacus enim.</p>
+                        <p>A house is a building that is made for people to live in. It is not easily packed up and carried away like a tent, or moved like a caravan.</p>
                     </div>
                 </div>
             </div>
@@ -164,7 +158,7 @@
                             <div class="type-lb">
                                 <p class="new">New</p>
                             </div>
-                            <img src="images/rumah1.jpeg" class="img-fluid" alt="Image">
+                            <img src="images/rumah2.jpeg" class="img-fluid" alt="Image">
                             <div class="mask-icon">
                                 <ul>
                                     <li><a href="#" data-toggle="tooltip" data-placement="right" title="View"><i class="fas fa-eye"></i></a></li>
@@ -237,7 +231,7 @@
             <div class="row">
                 <div class="col-lg-12">
                     <div class="title-all text-center">
-                        <h1>latest blog</h1>
+                        <h1>Type House</h1>
                         <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed sit amet lacus enim.</p>
                     </div>
                 </div>
@@ -246,7 +240,7 @@
                 <div class="col-md-6 col-lg-4 col-xl-4">
                     <div class="blog-box">
                         <div class="blog-img">
-                            <img class="img-fluid" src="images/blog-img.jpg" alt="" />
+                            <img class="img-fluid" src="images/rumah4.jpeg" alt="" />
                         </div>
                         <div class="blog-content">
                             <div class="title-blog">
@@ -264,7 +258,7 @@
                 <div class="col-md-6 col-lg-4 col-xl-4">
                     <div class="blog-box">
                         <div class="blog-img">
-                            <img class="img-fluid" src="images/blog-img-01.jpg" alt="" />
+                            <img class="img-fluid" src="images/rumah2.jpeg" alt="" />
                         </div>
                         <div class="blog-content">
                             <div class="title-blog">
@@ -282,7 +276,7 @@
                 <div class="col-md-6 col-lg-4 col-xl-4">
                     <div class="blog-box">
                         <div class="blog-img">
-                            <img class="img-fluid" src="images/blog-img-02.jpg" alt="" />
+                            <img class="img-fluid" src="images/rumah3.jpeg" alt="" />
                         </div>
                         <div class="blog-content">
                             <div class="title-blog">
@@ -308,7 +302,7 @@
         <div class="main-instagram owl-carousel owl-theme">
             <div class="item">
                 <div class="ins-inner-box">
-                    <img src="images/instagram-img-01.jpg" alt="" />
+                    <img src="images/rumah2.jpeg" alt="" />
                     <div class="hov-in">
                         <a href="#"><i class="fab fa-instagram"></i></a>
                     </div>
@@ -316,7 +310,7 @@
             </div>
             <div class="item">
                 <div class="ins-inner-box">
-                    <img src="images/instagram-img-02.jpg" alt="" />
+                    <img src="images/rumah4.jpeg" alt="" />
                     <div class="hov-in">
                         <a href="#"><i class="fab fa-instagram"></i></a>
                     </div>
@@ -324,7 +318,7 @@
             </div>
             <div class="item">
                 <div class="ins-inner-box">
-                    <img src="images/instagram-img-03.jpg" alt="" />
+                    <img src="images/rumah2.jpeg" alt="" />
                     <div class="hov-in">
                         <a href="#"><i class="fab fa-instagram"></i></a>
                     </div>
@@ -332,7 +326,7 @@
             </div>
             <div class="item">
                 <div class="ins-inner-box">
-                    <img src="images/instagram-img-04.jpg" alt="" />
+                    <img src="images/rumah3.jpeg" alt="" />
                     <div class="hov-in">
                         <a href="#"><i class="fab fa-instagram"></i></a>
                     </div>
@@ -340,7 +334,7 @@
             </div>
             <div class="item">
                 <div class="ins-inner-box">
-                    <img src="images/instagram-img-05.jpg" alt="" />
+                    <img src="images/rumah4.jpeg" alt="" />
                     <div class="hov-in">
                         <a href="#"><i class="fab fa-instagram"></i></a>
                     </div>
@@ -348,7 +342,7 @@
             </div>
             <div class="item">
                 <div class="ins-inner-box">
-                    <img src="images/instagram-img-06.jpg" alt="" />
+                    <img src="images/rumah2.jpeg" alt="" />
                     <div class="hov-in">
                         <a href="#"><i class="fab fa-instagram"></i></a>
                     </div>
@@ -356,7 +350,7 @@
             </div>
             <div class="item">
                 <div class="ins-inner-box">
-                    <img src="images/instagram-img-07.jpg" alt="" />
+                    <img src="images/rumah4.jpeg" alt="" />
                     <div class="hov-in">
                         <a href="#"><i class="fab fa-instagram"></i></a>
                     </div>
@@ -364,7 +358,7 @@
             </div>
             <div class="item">
                 <div class="ins-inner-box">
-                    <img src="images/instagram-img-08.jpg" alt="" />
+                    <img src="images/rumah2.jpeg" alt="" />
                     <div class="hov-in">
                         <a href="#"><i class="fab fa-instagram"></i></a>
                     </div>
@@ -372,7 +366,7 @@
             </div>
             <div class="item">
                 <div class="ins-inner-box">
-                    <img src="images/instagram-img-09.jpg" alt="" />
+                    <img src="images/rumah3.jpeg" alt="" />
                     <div class="hov-in">
                         <a href="#"><i class="fab fa-instagram"></i></a>
                     </div>
@@ -380,7 +374,7 @@
             </div>
             <div class="item">
                 <div class="ins-inner-box">
-                    <img src="images/instagram-img-05.jpg" alt="" />
+                    <img src="images/rumah4.jpeg" alt="" />
                     <div class="hov-in">
                         <a href="#"><i class="fab fa-instagram"></i></a>
                     </div>

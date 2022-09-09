@@ -12,7 +12,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1">
 
     <!-- Site Metas -->
-    <title>Furnitur shop - Ecommerce</title>
+    <title>Sell House - Ecommerce</title>
     <meta name="keywords" content="">
     <meta name="description" content="">
     <meta name="author" content="Susanti Novel Mayzura">
@@ -124,8 +124,8 @@
 
     <!-- Start copyright  -->
     <div class="footer-copyright">
-        <p class="footer-company">All Rights Reserved. &copy; 2018 <a href="#">ThewayShop</a> Design By :
-            <a href="https://html.design/">html design</a></p>
+        <p class="footer-company">All Rights Reserved. &copy; 2022 <a href="#">Sell House</a> recycle Design By :
+            <a href="https://html.design/">SUSANTI - NOVELYA - MAYZURA</a></p>
     </div>
     <!-- End copyright  -->
 
