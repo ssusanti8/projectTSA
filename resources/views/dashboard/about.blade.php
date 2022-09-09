@@ -35,7 +35,7 @@
         <div class="container">
             <div class="row">
 				<div class="col-lg-6">
-                    <div class="banner-frame"> <img class="img-fluid" src="images/rumah1.jpeg" alt="" />
+                    <div class="banner-frame"> <img class="img-fluid" src="images/judulrumah.jpg" alt="" />
                     </div>
                 </div>
                 <div class="col-lg-6">
@@ -74,9 +74,9 @@
                 </div>
                 <div class="col-sm-6 col-lg-3">
                     <div class="hover-team">
-                        <div class="our-team"> <img src="images/img-1.jpg" alt="" />
+                        <div class="our-team"> <img src="images/timmay.jpeg" alt="" />
                             <div class="team-content">
-                                <h3 class="title">Williamson</h3> <span class="post">Web Developer</span> </div>
+                                <h3 class="title">Tim Mayzura</h3> <span class="post">Web Developer</span> </div>
                             <ul class="social">
                                 <li>
                                     <a href="#" class="fab fa-facebook"></a>
@@ -100,9 +100,9 @@
                 </div>
                 <div class="col-sm-6 col-lg-3">
                     <div class="hover-team">
-                        <div class="our-team"> <img src="images/img-2.jpg" alt="" />
+                        <div class="our-team"> <img src="images/timnovel.jpeg" alt="" />
                             <div class="team-content">
-                                <h3 class="title">Kristiana</h3> <span class="post">Web Developer</span> </div>
+                                <h3 class="title">Tim Novelya</h3> <span class="post">Web Developer</span> </div>
                             <ul class="social">
                                 <li>
                                     <a href="#" class="fab fa-facebook"></a>
@@ -126,9 +126,9 @@
                 </div>
                 <div class="col-sm-6 col-lg-3">
                     <div class="hover-team">
-                        <div class="our-team"> <img src="images/img-3.jpg" alt="" />
+                        <div class="our-team"> <img src="images/timsusanti.jpeg" alt="" />
                             <div class="team-content">
-                                <h3 class="title">Steve Thomas</h3> <span class="post">Web Developer</span> </div>
+                                <h3 class="title">Tim Susanti</h3> <span class="post">Web Developer</span> </div>
                             <ul class="social">
                                 <li>
                                     <a href="#" class="fab fa-facebook"></a>
@@ -186,7 +186,7 @@
         <div class="main-instagram owl-carousel owl-theme">
             <div class="item">
                 <div class="ins-inner-box">
-                    <img src="images/instagram-img-01.jpg" alt="" />
+                    <img src="images/rumah4.jpeg" alt="" />
                     <div class="hov-in">
                         <a href="#"><i class="fab fa-instagram"></i></a>
                     </div>
@@ -194,7 +194,7 @@
             </div>
             <div class="item">
                 <div class="ins-inner-box">
-                    <img src="images/instagram-img-02.jpg" alt="" />
+                    <img src="images/rumah2.jpeg" alt="" />
                     <div class="hov-in">
                         <a href="#"><i class="fab fa-instagram"></i></a>
                     </div>
@@ -202,7 +202,7 @@
             </div>
             <div class="item">
                 <div class="ins-inner-box">
-                    <img src="images/instagram-img-03.jpg" alt="" />
+                    <img src="images/rumah2.jpeg" alt="" />
                     <div class="hov-in">
                         <a href="#"><i class="fab fa-instagram"></i></a>
                     </div>
@@ -210,7 +210,7 @@
             </div>
             <div class="item">
                 <div class="ins-inner-box">
-                    <img src="images/instagram-img-04.jpg" alt="" />
+                    <img src="images/rumah3.jpeg" alt="" />
                     <div class="hov-in">
                         <a href="#"><i class="fab fa-instagram"></i></a>
                     </div>
@@ -218,7 +218,7 @@
             </div>
             <div class="item">
                 <div class="ins-inner-box">
-                    <img src="images/instagram-img-05.jpg" alt="" />
+                    <img src="images/rumah4.jpeg" alt="" />
                     <div class="hov-in">
                         <a href="#"><i class="fab fa-instagram"></i></a>
                     </div>
@@ -226,7 +226,7 @@
             </div>
             <div class="item">
                 <div class="ins-inner-box">
-                    <img src="images/instagram-img-06.jpg" alt="" />
+                    <img src="images/rumah2.jpeg" alt="" />
                     <div class="hov-in">
                         <a href="#"><i class="fab fa-instagram"></i></a>
                     </div>
@@ -234,7 +234,7 @@
             </div>
             <div class="item">
                 <div class="ins-inner-box">
-                    <img src="images/instagram-img-07.jpg" alt="" />
+                    <img src="images/rumah3.jpeg" alt="" />
                     <div class="hov-in">
                         <a href="#"><i class="fab fa-instagram"></i></a>
                     </div>
@@ -242,7 +242,7 @@
             </div>
             <div class="item">
                 <div class="ins-inner-box">
-                    <img src="images/instagram-img-08.jpg" alt="" />
+                    <img src="images/rumah2.jpeg" alt="" />
                     <div class="hov-in">
                         <a href="#"><i class="fab fa-instagram"></i></a>
                     </div>
@@ -250,7 +250,7 @@
             </div>
             <div class="item">
                 <div class="ins-inner-box">
-                    <img src="images/instagram-img-09.jpg" alt="" />
+                    <img src="images/mages/rumah3.jpeg" alt="" />
                     <div class="hov-in">
                         <a href="#"><i class="fab fa-instagram"></i></a>
                     </div>
@@ -258,7 +258,7 @@
             </div>
             <div class="item">
                 <div class="ins-inner-box">
-                    <img src="images/instagram-img-05.jpg" alt="" />
+                    <img src="images/rumah4.jpeg"" alt="" />
                     <div class="hov-in">
                         <a href="#"><i class="fab fa-instagram"></i></a>
                     </div>
