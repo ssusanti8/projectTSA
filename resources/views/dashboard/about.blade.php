@@ -73,6 +73,7 @@
                     <h2 class="noo-sh-title">Meet Our Team</h2>
                 </div>
                 <div class="col-sm-6 col-lg-3">
+                <span align="center"></span>
                     <div class="hover-team">
                         <div class="our-team"> <img src="images/timmay.jpeg" alt="" />
                             <div class="team-content">
@@ -126,7 +127,7 @@
                 </div>
                 <div class="col-sm-6 col-lg-3">
                     <div class="hover-team">
-                        <div class="our-team"> <img src="images/timsusanti.jpeg" alt="" />
+                        <div class="our-team"> <img src="images/timsus.jpeg" alt="" />
                             <div class="team-content">
                                 <h3 class="title">Tim Susanti</h3> <span class="post">Web Developer</span> </div>
                             <ul class="social">
@@ -150,7 +151,7 @@
                         </div>
                         <hr class="my-0"> </div>
                 </div>
-                <div class="col-sm-6 col-lg-3">
+                <!-- <div class="col-sm-6 col-lg-3">
                     <div class="hover-team">
                         <div class="our-team"> <img src="images/img-1.jpg" alt="" />
                             <div class="team-content">
@@ -177,7 +178,7 @@
                         <hr class="my-0"> </div>
                 </div>
             </div>
-        </div>
+        </div> -->
     </div>
     <!-- End About Page -->
 
@@ -250,7 +251,7 @@
             </div>
             <div class="item">
                 <div class="ins-inner-box">
-                    <img src="images/mages/rumah3.jpeg" alt="" />
+                    <img src="images/rumah3.jpeg" alt="" />
                     <div class="hov-in">
                         <a href="#"><i class="fab fa-instagram"></i></a>
                     </div>
