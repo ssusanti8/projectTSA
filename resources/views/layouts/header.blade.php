@@ -29,6 +29,7 @@
                             </ul>
                         </li>
                         <li class="nav-item"><a class="nav-link" href="/gallery">Gallery</a></li>
+                        <li class="nav-item"><a class="nav-link" href="/kategori">Kategori</a></li>
                         <li class="nav-item"><a class="nav-link" href="/contact-us">Contact Us</a></li>
                     </ul>
                 </div>
