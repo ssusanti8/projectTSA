@@ -4,6 +4,8 @@ namespace App\Http\Controllers;
 
 use Illuminate\Http\Request;
 
+use App\Models\Gallery;
+
 class GaleryController extends Controller
 {
     /**
@@ -13,7 +15,6 @@ class GaleryController extends Controller
      */
     public function index()
     {
-        //
         return view('galery.gallery');
     }
 
