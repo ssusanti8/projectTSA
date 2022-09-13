@@ -17,7 +17,7 @@ class GaleryController extends Controller
     {
         // return view('galery.gallery');
         $galery   = galery::all();
-        return view('galery.gallery')->with('galery', $galery);
+        return view('galery.galery')->with('galery', $galery);
     }
 
     /**

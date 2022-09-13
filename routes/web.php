@@ -13,7 +13,9 @@ use App\Http\Controllers\ShopController;
 use App\Http\Controllers\ShopDetailController;
 use App\Http\Controllers\WishlistController;
 use App\Http\Controllers\GaleryController;
+use App\Http\Controllers\GalleryController;
 use App\Http\Controllers\KategoriController;
+use App\Http\Controllers\KoleksiController;
 
 /*
 |--------------------------------------------------------------------------
@@ -57,3 +59,5 @@ Route::resource('/wishlist', WishlistController::class);
 Route::resource('/gallery', GaleryController::class);
 
 Route::resource('/kategori', KategoriController::class);
+
+Route::resource('/koleksi', KoleksiController::class);

@@ -3,9 +3,9 @@
 namespace App\Http\Controllers;
 
 use Illuminate\Http\Request;
-use App\Models\Gallery;
+use App\Models\Koleksi;
 
-class GalleryController extends Controller
+class KoleksiController extends Controller
 {
     /**
      * Display a listing of the resource.
@@ -14,8 +14,9 @@ class GalleryController extends Controller
      */
     public function index()
     {
-        $galery   = galery::all();
-        return view('galery.galery')->with('galery', $galery);
+        //
+        $koleksi   = koleksi::all();
+        return view('koleksi.index')->with('koleksi', $koleksi);
     }
 
     /**
@@ -84,3 +85,4 @@ class GalleryController extends Controller
         //
     }
 }
+
