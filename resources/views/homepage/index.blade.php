@@ -1,7 +1,5 @@
 @extends('layouts.main')
 
-@section('title') {{'HOMEPAGE'}} @endsection
-
 @section('container')
 
     <!-- Start Top Search -->

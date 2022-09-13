@@ -1,7 +1,5 @@
 @extends('layouts.main')
 
-@section('title') {{'KOLEKSI'}} @endsection
-
 @section('container')
 <!-- Start Top Search -->
 <div class="top-search">

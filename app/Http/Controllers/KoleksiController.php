@@ -16,7 +16,9 @@ class KoleksiController extends Controller
     {
         //
         $koleksi   = koleksi::all();
-        return view('koleksi.index')->with('koleksi', $koleksi);
+        return view('koleksi.index', [
+            'title' => 'Koleksi'
+        ])->with('koleksi', $koleksi);
     }
 
     /**

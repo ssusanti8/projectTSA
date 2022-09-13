@@ -1,7 +1,5 @@
 @extends('layouts.main')
 
-@section('title') {{'CONTACT US'}} @endsection
-
 @section('container')
 
     <?php   

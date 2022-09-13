@@ -14,7 +14,9 @@ class CheckoutController extends Controller
     public function index()
     {
         //
-        return view('Checkout.Checkout');
+        return view('Checkout.Checkout', [
+            'title' => 'CheckOut'
+        ]);
     }
 
     /**

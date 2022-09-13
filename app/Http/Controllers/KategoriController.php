@@ -17,7 +17,9 @@ class KategoriController extends Controller
     {
         //
         $kategori   = Kategori::all();
-        return view('kategori.index')->with('kategori', $kategori);
+        return view('kategori.index', [
+            'title' => 'Kategori'
+        ])->with('kategori', $kategori);
     }
 
     /**

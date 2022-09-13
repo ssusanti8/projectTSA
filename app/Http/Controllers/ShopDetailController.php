@@ -14,7 +14,9 @@ class ShopDetailController extends Controller
     public function index()
     {
         //
-        return view('shop-detail.shop-detail');
+        return view('shop-detail.shop-detail', [
+            'title' => 'Shop Detail'
+        ]);
 
     }
 

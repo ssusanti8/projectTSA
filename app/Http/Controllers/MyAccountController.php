@@ -14,7 +14,9 @@ class MyAccountController extends Controller
     public function index()
     {
         //
-        return view('myaccount.my-account');
+        return view('myaccount.my-account', [
+            'title' => 'My Account'
+        ]);
     }
 
     /**

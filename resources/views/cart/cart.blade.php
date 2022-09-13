@@ -1,7 +1,5 @@
 @extends('layouts.main')
 
-@section('title') {{'CART'}} @endsection
-
 @section('container')
 
 

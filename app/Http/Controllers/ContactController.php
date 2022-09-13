@@ -14,7 +14,9 @@ class ContactController extends Controller
     public function index()
     {
         //
-        return view('contact.contact-us');
+        return view('contact.contact-us', [
+            'title' => 'Contact Us'
+        ]);
     }
 
     /**

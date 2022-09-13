@@ -1,7 +1,5 @@
 @extends('layouts.main')
 
-@section('title') {{'SHOP'}} @endsection
-
 @section('container')
 
     <!-- Start Top Search -->

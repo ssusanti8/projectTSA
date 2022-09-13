@@ -14,7 +14,9 @@ class WishlistController extends Controller
     public function index()
     {
         //
-        return view('wishlist.wishlist');
+        return view('wishlist.wishlist', [
+            'title' => 'WishList'
+        ]);
 
     }
 
