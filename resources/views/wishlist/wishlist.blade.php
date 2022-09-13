@@ -1,5 +1,7 @@
 @extends('layouts.main')
 
+@section('title') {{'WISHLIST'}} @endsection
+
 @section('container')
 
     <!-- Start Top Search -->
