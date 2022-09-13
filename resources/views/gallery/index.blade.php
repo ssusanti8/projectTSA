@@ -1,5 +1,7 @@
 @extends('layouts.main')
 
+@section('title') {{'GALLERY'}} @endsection
+
 @section('container')
     <!-- Start Top Search -->
     <div class="top-search">
