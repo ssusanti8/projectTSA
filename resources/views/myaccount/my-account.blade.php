@@ -1,5 +1,7 @@
 @extends('layouts.main')
 
+@section('title') {{'SERVICE'}} @endsection
+
 @section('container')
 
 

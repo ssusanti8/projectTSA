@@ -1,5 +1,7 @@
 @extends('layouts.main')
 
+@section('title') {{'KATEGORI'}} @endsection
+
 @section('container')
 <!-- Start Top Search -->
 <div class="top-search">
