@@ -28,9 +28,9 @@ use App\Http\Controllers\KoleksiController;
 |
 */
 
-Route::get('/', function () {
-    return view('welcome');
-});
+// Route::get('/', function () {
+//     return view('welcome');
+// });
 
 Auth::routes();
 
@@ -38,7 +38,7 @@ Route::get('/home', [App\Http\Controllers\HomeController::class, 'index'])->name
 
 Route::resource('/about', AboutController::class);
 
-Route::resource('/homepage', HomepageController::class);
+Route::resource('/', HomepageController::class);
 
 Route::resource('/cart', CartController::class);
 
@@ -56,7 +56,7 @@ Route::resource('/shop-detail', ShopDetailController::class);
 
 Route::resource('/wishlist', WishlistController::class);
 
-Route::resource('/gallery', GaleryController::class);
+Route::resource('/gallery', GalleryController::class);
 
 Route::resource('/kategori', KategoriController::class);
 

@@ -20,7 +20,7 @@
                 <div class="col-lg-12">
                     <h2>Kategori</h2>
                     <ul class="breadcrumb">
-                        <li class="breadcrumb-item"><a href="/homepage">Home</a></li>
+                        <li class="breadcrumb-item"><a href="/">Home</a></li>
                         <li class="breadcrumb-item active">Kategori</li>
                     </ul>
                 </div>
@@ -40,8 +40,7 @@
                         <div class="card">
                             <div class="card-body">
                                 <h5 class="card-title">{{ $KategoriItem->KategoriRumah }}</h5>
-                                <img src="{{ asset('/images/'. $KategoriItem->gambarRumah) }}" width="30" height="30" alt="">
-                                <h5 class="card-title">{{ $KategoriItem->gambarRumah }}</h5>
+                                <img src="{{ asset('/images/'. $KategoriItem->gambarRumah) }}" width="150" height="150" alt="">
                                 <h5 class="card-title">{{ $KategoriItem->deskripsi }}</h5>
                                 <a href="#" class="btn btn-primary">Go somewhere</a>
                             </div>

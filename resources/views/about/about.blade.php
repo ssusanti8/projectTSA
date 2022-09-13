@@ -21,7 +21,7 @@
                 <div class="col-lg-12">
                     <h2>ABOUT US</h2>
                     <ul class="breadcrumb">
-                        <li class="breadcrumb-item"><a href="/homepage">Home</a></li>
+                        <li class="breadcrumb-item"><a href="/">Home</a></li>
                         <li class="breadcrumb-item active">ABOUT US</li>
                     </ul>
                 </div>
@@ -39,7 +39,7 @@
                     </div>
                 </div>
                 <div class="col-lg-6">
-                    <h2 class="noo-sh-title-top">We are <span>Furniture Shop</span></h2>
+                    <h2 class="noo-sh-title-top">We are <span>Sell House</span></h2>
                     <p>"Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam, eaque ipsa quae ab illo inventore veritatis et quasi architecto beatae vitae dicta sunt explicabo. Nemo enim ipsam
                         voluptatem quia voluptas sit aspernatur aut odit aut fugit, sed quia consequuntur magni dolores eos qui ratione voluptatem sequi nesciunt. Neque porro quisquam est, qui dolorem ipsum quia dolor sit amet, consectetur, adipisci velit,
                         sed quia non numquam eius modi tempora incidunt ut labore et dolore magnam aliquam quaerat voluptatem. Ut enim ad minima veniam, quis nostrum exercitationem ullam corporis suscipit laboriosam, nisi ut aliquid ex ea commodi consequatur?
@@ -70,14 +70,14 @@
             </div>
             <div class="row my-4">
                 <div class="col-12">
-                    <h2 class="noo-sh-title">Meet Our Team</h2>
+                    <h2 class="noo-sh-title">Choose Your Colour</h2>
                 </div>
                 <div class="col-sm-6 col-lg-3">
                 <span align="center"></span>
                     <div class="hover-team">
-                        <div class="our-team"> <img src="images/timmay.jpeg" alt="" />
+                        <div class="our-team"> <img src="images/judulrumah.jpg" alt="" />
                             <div class="team-content">
-                                <h3 class="title">Tim Mayzura</h3> <span class="post">Web Developer</span> </div>
+                                <h3 class="title">GOLD</h3> <span class="post">Modern</span> </div>
                             <ul class="social">
                                 <li>
                                     <a href="#" class="fab fa-facebook"></a>
@@ -101,9 +101,9 @@
                 </div>
                 <div class="col-sm-6 col-lg-3">
                     <div class="hover-team">
-                        <div class="our-team"> <img src="images/timnovel.jpeg" alt="" />
+                        <div class="our-team"> <img src="images/lima.jpeg" alt="" />
                             <div class="team-content">
-                                <h3 class="title">Tim Novelya</h3> <span class="post">Web Developer</span> </div>
+                                <h3 class="title">WHITE</h3> <span class="post">Elegant</span> </div>
                             <ul class="social">
                                 <li>
                                     <a href="#" class="fab fa-facebook"></a>
@@ -127,9 +127,9 @@
                 </div>
                 <div class="col-sm-6 col-lg-3">
                     <div class="hover-team">
-                        <div class="our-team"> <img src="images/timsus.jpeg" alt="" />
+                        <div class="our-team"> <img src="images/tiga.jpeg" alt="" />
                             <div class="team-content">
-                                <h3 class="title">Tim Susanti</h3> <span class="post">Web Developer</span> </div>
+                                <h3 class="title">BLACK</h3> <span class="post">Classic</span> </div>
                             <ul class="social">
                                 <li>
                                     <a href="#" class="fab fa-facebook"></a>
