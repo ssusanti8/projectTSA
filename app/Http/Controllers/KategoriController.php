@@ -6,6 +6,8 @@ use Illuminate\Http\Request;
 
 use App\Models\Kategori;
 
+use Illuminate\Support\Facades\Storage;
+
 class KategoriController extends Controller
 {
     /**
@@ -15,11 +17,10 @@ class KategoriController extends Controller
      */
     public function index()
     {
-        //
-        $kategori   = Kategori::all();
-        return view('kategori.index', [
+        $kategoris = Kategori::latest()->paginate(10);
+        return view('kategori.index', compact('kategoris'), [
             'title' => 'Kategori'
-        ])->with('kategori', $kategori);
+        ]);
     }
 
     /**
@@ -29,7 +30,9 @@ class KategoriController extends Controller
      */
     public function create()
     {
-        //
+        return view('kategori.create', [
+            'title' => 'Tambah Kategori'
+        ]);
     }
 
     /**
@@ -40,7 +43,29 @@ class KategoriController extends Controller
      */
     public function store(Request $request)
     {
-        //
+        $this->validate($request, [
+            'KategoriRumah'     => 'required',
+            'gambarRumah'       => 'required|image|mimes:png,jpg,jpeg',
+            'deskripsi'         => 'required'
+        ]);
+    
+        //upload gambarRumah
+        $gambarRumah = $request->file('gambarRumah');
+        $gambarRumah->storeAs('public/kategoris', $gambarRumah->hashName());
+    
+        $kategori = Kategori::create([
+            'KategoriRumah' => $request->KategoriRumah,
+            'gambarRumah'   => $gambarRumah->hashName(),
+            'deskripsi'     => $request->deskripsi
+        ]);
+    
+        if($kategori){
+            //redirect dengan pesan sukses
+            return redirect()->route('kategori.index')->with(['success' => 'Data Berhasil Disimpan!']);
+        }else{
+            //redirect dengan pesan error
+            return redirect()->route('kategori.index')->with(['error' => 'Data Gagal Disimpan!']);
+        }
     }
 
     /**
@@ -60,9 +85,11 @@ class KategoriController extends Controller
      * @param  int  $id
      * @return \Illuminate\Http\Response
      */
-    public function edit($id)
+    public function edit(Kategori $kategori)
     {
-        //
+        return view('kategori.edit', compact('kategori'), [
+            'title' => 'Edit Kategori'
+        ]);
     }
 
     /**
@@ -72,9 +99,48 @@ class KategoriController extends Controller
      * @param  int  $id
      * @return \Illuminate\Http\Response
      */
-    public function update(Request $request, $id)
+    public function update(Request $request, Kategori $kategori)
     {
-        //
+        $this->validate($request, [
+            'KategoriRumah'     => 'required',
+            'gambarRumah'       => 'required|image|mimes:png,jpg,jpeg',
+            'deskripsi'         => 'required'
+        ]);
+    
+        //get data Kategori by ID
+        $kategori = Kategori::findOrFail($kategori->id);
+    
+        if($request->file('gambarRumah') == "") {
+    
+            $kategori->update([
+                'KategoriRumah' => $request->KategoriRumah,
+                'deskripsi'     => $request->deskripsi
+            ]);
+    
+        } else {
+    
+            //hapus old image
+            Storage::disk('local')->delete('public/kategoris/'.$kategori->gambarRumah);
+    
+            //upload new image
+            $gambarRumah = $request->file('gambarRumah');
+            $gambarRumah->storeAs('public/kategoris', $gambarRumah->hashName());
+    
+            $kategori->update([
+                'KategoriRumah' => $request->KategoriRumah,
+                'gambarRumah'   => $gambarRumah->hashName(),
+                'deskripsi'     => $request->deskripsi
+            ]);
+    
+        }
+    
+        if($kategori){
+            //redirect dengan pesan sukses
+            return redirect()->route('kategori.index')->with(['success' => 'Data Berhasil Disimpan!']);
+        }else{
+            //redirect dengan pesan error
+            return redirect()->route('kategori.index')->with(['error' => 'Data Gagal Disimpan!']);
+        }
     }
 
     /**
@@ -85,6 +151,16 @@ class KategoriController extends Controller
      */
     public function destroy($id)
     {
-        //
+        $kategori = Kategori::findOrFail($id);
+        Storage::disk('local')->delete('public/kategoris/'.$kategori->gambarRumah);
+        $kategori->delete();
+
+        if($kategori){
+            //redirect dengan pesan sukses
+            return redirect()->route('kategori.index')->with(['success' => 'Data Berhasil Dihapus!']);
+        }else{
+            //redirect dengan pesan error
+            return redirect()->route('kategori.index')->with(['error' => 'Data Gagal Dihapus!']);
+        }
     }
 }
