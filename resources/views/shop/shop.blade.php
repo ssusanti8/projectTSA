@@ -42,7 +42,7 @@
                                 <button type="submit"> <i class="fa fa-search"></i> </button>
                             </form>
                         </div>
-                        <div class="filter-sidebar-left">
+                        <!-- <div class="filter-sidebar-left">
                             <div class="title-left">
                                 <h3>Categories</h3>
                             </div>
@@ -76,7 +76,7 @@
                                 <a href="#" class="list-group-item list-group-item-action">Accessories <small class="text-muted">(11)</small></a>
                                 <a href="#" class="list-group-item list-group-item-action">Bags <small class="text-muted">(22)</small></a>
                             </div>
-                        </div>
+                        </div> -->
                         <div class="filter-price-left">
                             <div class="title-left">
                                 <h3>Price</h3>
@@ -199,7 +199,7 @@
                                                     <div class="type-lb">
                                                         <p class="sale">Sale</p>
                                                     </div>
-                                                    <img src="images/img-pro-01.jpg" class="img-fluid" alt="Image">
+                                                    <img src="images/rumah1.jpeg" class="img-fluid" alt="Image">
                                                     <div class="mask-icon">
                                                         <ul>
                                                             <li><a href="#" data-toggle="tooltip" data-placement="right" title="View"><i class="fas fa-eye"></i></a></li>
@@ -221,7 +221,7 @@
                                                     <div class="type-lb">
                                                         <p class="new">New</p>
                                                     </div>
-                                                    <img src="images/img-pro-02.jpg" class="img-fluid" alt="Image">
+                                                    <img src="images/rumah3.jpeg" class="img-fluid" alt="Image">
                                                     <div class="mask-icon">
                                                         <ul>
                                                             <li><a href="#" data-toggle="tooltip" data-placement="right" title="View"><i class="fas fa-eye"></i></a></li>
@@ -243,7 +243,7 @@
                                                     <div class="type-lb">
                                                         <p class="sale">Sale</p>
                                                     </div>
-                                                    <img src="images/img-pro-03.jpg" class="img-fluid" alt="Image">
+                                                    <img src="images/rumah2.jpeg" class="img-fluid" alt="Image">
                                                     <div class="mask-icon">
                                                         <ul>
                                                             <li><a href="#" data-toggle="tooltip" data-placement="right" title="View"><i class="fas fa-eye"></i></a></li>
@@ -265,7 +265,7 @@
                                                     <div class="type-lb">
                                                         <p class="new">New</p>
                                                     </div>
-                                                    <img src="images/img-pro-01.jpg" class="img-fluid" alt="Image">
+                                                    <img src="images/rumah4.jpeg" class="img-fluid" alt="Image">
                                                     <div class="mask-icon">
                                                         <ul>
                                                             <li><a href="#" data-toggle="tooltip" data-placement="right" title="View"><i class="fas fa-eye"></i></a></li>
@@ -287,7 +287,7 @@
                                                     <div class="type-lb">
                                                         <p class="sale">Sale</p>
                                                     </div>
-                                                    <img src="images/img-pro-02.jpg" class="img-fluid" alt="Image">
+                                                    <img src="images/rumah1.jpeg" class="img-fluid" alt="Image">
                                                     <div class="mask-icon">
                                                         <ul>
                                                             <li><a href="#" data-toggle="tooltip" data-placement="right" title="View"><i class="fas fa-eye"></i></a></li>
@@ -309,7 +309,7 @@
                                                     <div class="type-lb">
                                                         <p class="sale">Sale</p>
                                                     </div>
-                                                    <img src="images/img-pro-03.jpg" class="img-fluid" alt="Image">
+                                                    <img src="images/rumah2.jpeg" class="img-fluid" alt="Image">
                                                     <div class="mask-icon">
                                                         <ul>
                                                             <li><a href="#" data-toggle="tooltip" data-placement="right" title="View"><i class="fas fa-eye"></i></a></li>
@@ -331,7 +331,7 @@
                                                     <div class="type-lb">
                                                         <p class="sale">Sale</p>
                                                     </div>
-                                                    <img src="images/img-pro-01.jpg" class="img-fluid" alt="Image">
+                                                    <img src="images/rumah3.jpeg" class="img-fluid" alt="Image">
                                                     <div class="mask-icon">
                                                         <ul>
                                                             <li><a href="#" data-toggle="tooltip" data-placement="right" title="View"><i class="fas fa-eye"></i></a></li>
@@ -347,7 +347,7 @@
                                                 </div>
                                             </div>
                                         </div>
-                                        <div class="col-sm-6 col-md-6 col-lg-4 col-xl-4">
+                                        <!-- <div class="col-sm-6 col-md-6 col-lg-4 col-xl-4">
                                             <div class="products-single fix">
                                                 <div class="box-img-hover">
                                                     <div class="type-lb">
@@ -445,8 +445,8 @@
                                                         </div>
                                                     </div>
                                                 </div>
-                                            </div>
-                                            <div class="col-sm-6 col-md-6 col-lg-8 col-xl-8">
+                                            </div> -->
+                                            <!-- <div class="col-sm-6 col-md-6 col-lg-8 col-xl-8">
                                                 <div class="why-text full-width">
                                                     <h4>Lorem ipsum dolor sit amet</h4>
                                                     <h5> <del>$ 60.00</del> $40.79</h5>
@@ -488,7 +488,7 @@
                                                     <a class="btn hvr-hover" href="#">Add to Cart</a>
                                                 </div>
                                             </div>
-                                        </div>
+                                        </div> -->
                                     </div>
                                 </div>
                             </div>
