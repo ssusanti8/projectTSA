@@ -45,10 +45,10 @@
                     <div class="special-menu text-center">
                         <div class="button-group filter-button-group">
                             <button class="active" data-filter="*">All</button>
-                            <button data-filter=".bulbs">Bulbs</button>
-                            <button data-filter=".fruits">Fruits</button>
-							<button data-filter=".podded-vegetables">Podded vegetables</button>
-							<button data-filter=".root-and-tuberous">Root and tuberous</button>
+                            <button data-filter=".bulbs">Modern</button>
+                            <button data-filter=".fruits">Clasic</button>
+							<button data-filter=".podded-vegetables">Clasic Tropis</button>
+							<button data-filter=".root-and-tuberous">Modern Tropis</button>
                         </div>
                     </div>
                 </div>
