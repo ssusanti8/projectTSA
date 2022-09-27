@@ -51,12 +51,12 @@
                                 <tr>
                                     <td class="thumbnail-img">
                                         <a href="#">
-									<img class="img-fluid" src="images/img-pro-01.jpg" alt="" />
+									<img class="img-fluid" src="images/rumah1.jpeg" alt="" />
 								</a>
                                     </td>
                                     <td class="name-pr">
                                         <a href="#">
-									Lorem ipsum dolor sit amet
+                                        Exlusive
 								</a>
                                     </td>
                                     <td class="price-pr">
@@ -75,12 +75,12 @@
                                 <tr>
                                     <td class="thumbnail-img">
                                         <a href="#">
-									<img class="img-fluid" src="images/img-pro-02.jpg" alt="" />
+									<img class="img-fluid" src="images/rumah2.jpeg" alt="" />
 								</a>
                                     </td>
                                     <td class="name-pr">
                                         <a href="#">
-									Lorem ipsum dolor sit amet
+									Standart
 								</a>
                                     </td>
                                     <td class="price-pr">
@@ -99,12 +99,12 @@
                                 <tr>
                                     <td class="thumbnail-img">
                                         <a href="#">
-									<img class="img-fluid" src="images/img-pro-03.jpg" alt="" />
+									<img class="img-fluid" src="images/rumah3.jpeg" alt="" />
 								</a>
                                     </td>
                                     <td class="name-pr">
                                         <a href="#">
-									Lorem ipsum dolor sit amet
+									VIP
 								</a>
                                     </td>
                                     <td class="price-pr">
