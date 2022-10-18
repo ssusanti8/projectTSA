@@ -3,7 +3,7 @@
         <div class="main-instagram owl-carousel owl-theme">
             <div class="item">
                 <div class="ins-inner-box">
-                    <img src="images/rumah2.jpeg" alt="" />
+                    <img src="images/nk1.jpeg" alt="" />
                     <div class="hov-in">
                         <a href="#"><i class="fab fa-instagram"></i></a>
                     </div>
@@ -11,7 +11,7 @@
             </div>
             <div class="item">
                 <div class="ins-inner-box">
-                    <img src="images/rumah4.jpeg" alt="" />
+                    <img src="images/nk2.jpeg" alt="" />
                     <div class="hov-in">
                         <a href="#"><i class="fab fa-instagram"></i></a>
                     </div>
@@ -19,7 +19,7 @@
             </div>
             <div class="item">
                 <div class="ins-inner-box">
-                    <img src="images/rumah2.jpeg" alt="" />
+                    <img src="images/nk3.jpeg" alt="" />
                     <div class="hov-in">
                         <a href="#"><i class="fab fa-instagram"></i></a>
                     </div>
@@ -27,7 +27,7 @@
             </div>
             <div class="item">
                 <div class="ins-inner-box">
-                    <img src="images/rumah3.jpeg" alt="" />
+                    <img src="images/nk4.png" alt="" />
                     <div class="hov-in">
                         <a href="#"><i class="fab fa-instagram"></i></a>
                     </div>
@@ -35,7 +35,7 @@
             </div>
             <div class="item">
                 <div class="ins-inner-box">
-                    <img src="images/rumah4.jpeg" alt="" />
+                    <img src="images/nk5.jpg" alt="" />
                     <div class="hov-in">
                         <a href="#"><i class="fab fa-instagram"></i></a>
                     </div>
@@ -43,7 +43,7 @@
             </div>
             <div class="item">
                 <div class="ins-inner-box">
-                    <img src="images/rumah2.jpeg" alt="" />
+                    <img src="images/nk6.jpg" alt="" />
                     <div class="hov-in">
                         <a href="#"><i class="fab fa-instagram"></i></a>
                     </div>
@@ -51,7 +51,7 @@
             </div>
             <div class="item">
                 <div class="ins-inner-box">
-                    <img src="images/rumah4.jpeg" alt="" />
+                    <img src="images/nkcouple.png" alt="" />
                     <div class="hov-in">
                         <a href="#"><i class="fab fa-instagram"></i></a>
                     </div>
@@ -59,7 +59,7 @@
             </div>
             <div class="item">
                 <div class="ins-inner-box">
-                    <img src="images/rumah2.jpeg" alt="" />
+                    <img src="images/nkcouple1.jpeg" alt="" />
                     <div class="hov-in">
                         <a href="#"><i class="fab fa-instagram"></i></a>
                     </div>
@@ -67,7 +67,7 @@
             </div>
             <div class="item">
                 <div class="ins-inner-box">
-                    <img src="images/rumah3.jpeg" alt="" />
+                    <img src="images/nkmalam.png" alt="" />
                     <div class="hov-in">
                         <a href="#"><i class="fab fa-instagram"></i></a>
                     </div>
@@ -75,7 +75,7 @@
             </div>
             <div class="item">
                 <div class="ins-inner-box">
-                    <img src="images/rumah4.jpeg" alt="" />
+                    <img src="images/nkpagi.png" alt="" />
                     <div class="hov-in">
                         <a href="#"><i class="fab fa-instagram"></i></a>
                     </div>

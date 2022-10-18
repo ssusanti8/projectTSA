@@ -8,7 +8,7 @@
                     <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbar-menu" aria-controls="navbars-rs-food" aria-expanded="false" aria-label="Toggle navigation">
                     <i class="fa fa-bars"></i>
                 </button>
-                    <a class="navbar-brand" href="/"><img src="images/logo1.png" class="logo" alt=""></a>
+                    <a class="navbar-brand" href="/"><img src="images/logo.png" class="logo" alt=""></a>
                 </div>
                 <!-- End Header Navigation -->
 
@@ -17,7 +17,10 @@
                     <ul class="nav navbar-nav ml-auto" data-in="fadeInDown" data-out="fadeOutUp">
                         <li class="nav-item"><a class="nav-link" href="{{ ('/') }}">Home</a></li>
                         <li class="nav-item"><a class="nav-link" href="{{ ('/about') }}">About Us</a></li>
-                        <li class="dropdown">
+                        <li class="nav-item"><a class="nav-link" href="{{ ('/gallery') }}">Gallery</a></li>
+                        <li class="nav-item"><a class="nav-link" href="{{ ('/belum') }}">Paket Diskon</a></li>
+                        <li class="nav-item"><a class="nav-link" href="{{ ('/belum') }}">Reservasi</a></li>
+                        <!-- <li class="dropdown">
                             <a href="/shop" class="nav-link dropdown-toggle arrow" data-toggle="dropdown">SHOP</a>
                             <ul class="dropdown-menu">
 								<li><a href="{{ ('/shop') }}">Sidebar Shop</a></li>
@@ -30,8 +33,8 @@
                         </li>
                         <li class="nav-item"><a class="nav-link" href="/gallery">Gallery</a></li>
                         <li class="nav-item"><a class="nav-link" href="/koleksi">Koleksi</a></li>
-                        <li class="nav-item"><a class="nav-link" href="/kategori">Kategori</a></li>
-                        <li class="nav-item"><a class="nav-link" href="/contact-us">Contact Us</a></li>
+                        <li class="nav-item"><a class="nav-link" href="/kategori">Kategori</a></li> -->
+                        <li class="nav-item"><a class="nav-link" href="/contact-us">Login</a></li>
                     </ul>
                 </div>
                 <!-- /.navbar-collapse -->
