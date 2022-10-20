@@ -61,7 +61,7 @@
                             <div class="type-lb">
                                 <p class="sale">Sale</p>
                             </div>
-                            <img src="images/satu.jpeg" class="img-fluid" alt="Image">
+                            <img src="images/nk1.jpeg" class="img-fluid" alt="Image">
                             <div class="mask-icon">
                                 <ul>
                                     <li><a href="#" data-toggle="tooltip" data-placement="right" title="View"><i class="fas fa-eye"></i></a></li>
@@ -77,7 +77,7 @@
                 <div class="col-lg-3 col-md-6 special-grid fruits">
                     <div class="products-single fix">
                         <div class="box-img-hover">
-                            <img src="images/dua.jpeg" class="img-fluid" alt="Image">
+                            <img src="images/nk2.jpeg" class="img-fluid" alt="Image">
                             <div class="mask-icon">
                                 <ul>
                                     <li><a href="#" data-toggle="tooltip" data-placement="right" title="View"><i class="fas fa-eye"></i></a></li>
@@ -92,7 +92,7 @@
                 <div class="col-lg-3 col-md-6 special-grid bulbs">
                     <div class="products-single fix">
                         <div class="box-img-hover">
-                            <img src="images/rumah1.jpeg" class="img-fluid" alt="Image">
+                            <img src="images/nk3.jpeg" class="img-fluid" alt="Image">
                             <div class="mask-icon">
                                 <ul>
                                     <li><a href="#" data-toggle="tooltip" data-placement="right" title="View"><i class="fas fa-eye"></i></a></li>
@@ -107,7 +107,7 @@
                 <div class="col-lg-3 col-md-6 special-grid fruits">
                     <div class="products-single fix">
                         <div class="box-img-hover">                            
-                            <img src="images/empat.jpeg" class="img-fluid" alt="Image">
+                            <img src="images/nk4.png" class="img-fluid" alt="Image">
                             <div class="mask-icon">
                                 <ul>
                                     <li><a href="#" data-toggle="tooltip" data-placement="right" title="View"><i class="fas fa-eye"></i></a></li>
@@ -121,7 +121,7 @@
 				<div class="col-lg-3 col-md-6 special-grid bulbs">
                     <div class="products-single fix">
                         <div class="box-img-hover">
-                            <img src="images/lima.jpeg" class="img-fluid" alt="Image">
+                            <img src="images/nk5.jpg" class="img-fluid" alt="Image">
                             <div class="mask-icon">
                                 <ul>
                                     <li><a href="#" data-toggle="tooltip" data-placement="right" title="View"><i class="fas fa-eye"></i></a></li>
@@ -136,7 +136,7 @@
                 <div class="col-lg-3 col-md-6 special-grid fruits">
                     <div class="products-single fix">
                         <div class="box-img-hover">                            
-                            <img src="images/enam.jpeg" class="img-fluid" alt="Image">
+                            <img src="images/nk6.jpg" class="img-fluid" alt="Image">
                             <div class="mask-icon">
                                 <ul>
                                     <li><a href="#" data-toggle="tooltip" data-placement="right" title="View"><i class="fas fa-eye"></i></a></li>
@@ -151,7 +151,7 @@
                 <div class="col-lg-3 col-md-6 special-grid podded-vegetables">
                     <div class="products-single fix">
                         <div class="box-img-hover">
-                            <img src="images/rumah2.jpeg" class="img-fluid" alt="Image">
+                            <img src="images/nkcouple.png" class="img-fluid" alt="Image">
                             <div class="mask-icon">
                                 <ul>
                                     <li><a href="#" data-toggle="tooltip" data-placement="right" title="View"><i class="fas fa-eye"></i></a></li>
@@ -166,7 +166,7 @@
                 <div class="col-lg-3 col-md-6 special-grid root-and-tuberous">
                     <div class="products-single fix">
                         <div class="box-img-hover">                            
-                            <img src="images/rumah3.jpeg" class="img-fluid" alt="Image">
+                            <img src="images/nkcouple1.jpeg" class="img-fluid" alt="Image">
                             <div class="mask-icon">
                                 <ul>
                                     <li><a href="#" data-toggle="tooltip" data-placement="right" title="View"><i class="fas fa-eye"></i></a></li>
@@ -181,7 +181,7 @@
 				<div class="col-lg-3 col-md-6 special-grid root-and-tuberous">
                     <div class="products-single fix">
                         <div class="box-img-hover">                            
-                            <img src="images/rumah4.jpeg" class="img-fluid" alt="Image">
+                            <img src="images/nkmalam.png" class="img-fluid" alt="Image">
                             <div class="mask-icon">
                                 <ul>
                                     <li><a href="#" data-toggle="tooltip" data-placement="right" title="View"><i class="fas fa-eye"></i></a></li>
@@ -196,7 +196,7 @@
                 <div class="col-lg-3 col-md-6 special-grid podded-vegetables">
                     <div class="products-single fix">
                         <div class="box-img-hover">
-                            <img src="images/judulrumah.jpg" class="img-fluid" alt="Image">
+                            <img src="images/nkpagi.png" class="img-fluid" alt="Image">
                             <div class="mask-icon">
                                 <ul>
                                     <li><a href="#" data-toggle="tooltip" data-placement="right" title="View"><i class="fas fa-eye"></i></a></li>
@@ -211,7 +211,7 @@
                 <div class="col-lg-3 col-md-6 special-grid root-and-tuberous">
                     <div class="products-single fix">
                         <div class="box-img-hover">                           
-                            <img src="images/satu.jpeg" class="img-fluid" alt="Image">
+                            <img src="images/nksore.jpg" class="img-fluid" alt="Image">
                             <div class="mask-icon">
                                 <ul>
                                     <li><a href="#" data-toggle="tooltip" data-placement="right" title="View"><i class="fas fa-eye"></i></a></li>
@@ -226,7 +226,7 @@
                 <div class="col-lg-3 col-md-6 special-grid podded-vegetables">
                     <div class="products-single fix">
                         <div class="box-img-hover">
-                            <img src="images/dua.jpeg" class="img-fluid" alt="Image">
+                            <img src="images/nk1.jpeg" class="img-fluid" alt="Image">
                             <div class="mask-icon">
                                 <ul>
                                     <li><a href="#" data-toggle="tooltip" data-placement="right" title="View"><i class="fas fa-eye"></i></a></li>

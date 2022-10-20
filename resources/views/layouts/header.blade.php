@@ -18,6 +18,7 @@
                         <li class="nav-item"><a class="nav-link" href="{{ ('/') }}">Home</a></li>
                         <li class="nav-item"><a class="nav-link" href="{{ ('/about') }}">About Us</a></li>
                         <li class="nav-item"><a class="nav-link" href="{{ ('/gallery') }}">Gallery</a></li>
+                        <li class="nav-item"><a class="nav-link" href="{{ ('/gallery') }}">Menu</a></li>
                         <li class="nav-item"><a class="nav-link" href="{{ ('/belum') }}">Paket Diskon</a></li>
                         <li class="nav-item"><a class="nav-link" href="{{ ('/belum') }}">Reservasi</a></li>
                         <!-- <li class="dropdown">
