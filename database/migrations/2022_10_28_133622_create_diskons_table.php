@@ -13,10 +13,10 @@ return new class extends Migration
      */
     public function up()
     {
-        Schema::create('koleksis', function (Blueprint $table) {
+        Schema::create('diskons', function (Blueprint $table) {
             $table->id();
-            $table->string('KategoriRumah');
-            $table->string('gambarRumah');
+            $table->string('judul');
+            $table->string('gambar');
             $table->string('deskripsi');
             $table->timestamps();
         });
@@ -29,6 +29,6 @@ return new class extends Migration
      */
     public function down()
     {
-        Schema::dropIfExists('koleksis');
+        Schema::dropIfExists('diskons');
     }
 };

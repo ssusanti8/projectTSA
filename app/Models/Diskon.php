@@ -5,10 +5,10 @@ namespace App\Models;
 use Illuminate\Database\Eloquent\Factories\HasFactory;
 use Illuminate\Database\Eloquent\Model;
 
-class Koleksi extends Model
+class Diskon extends Model
 {
     use HasFactory;
     protected $fillable = [
-        'KategoriRumah', 'gambarRumah', 'deskripsi'
+        'judul', 'gambar', 'deskripsi'
     ];
 }

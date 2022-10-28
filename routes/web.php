@@ -4,6 +4,7 @@ use Illuminate\Support\Facades\Route;
 use App\Http\Controllers\HomeController;
 use App\Http\Controllers\AboutController;
 use App\Http\Controllers\HomepageController;
+use App\Http\Controllers\DiskonController;
 use App\Http\Controllers\CartController;
 use App\Http\Controllers\CheckoutController;
 use App\Http\Controllers\ContactController;
@@ -61,3 +62,7 @@ Route::resource('/gallery', GalleryController::class);
 Route::resource('/kategori', KategoriController::class);
 
 Route::resource('/koleksi', KoleksiController::class);
+
+Route::resource('/diskon', DiskonController::class);
+
+Route::get('/diskonku', [App\Http\Controllers\DiskonController::class, 'diskon'])->name('diskon');
