@@ -35,7 +35,7 @@
                         <li class="nav-item"><a class="nav-link" href="/gallery">Gallery</a></li>
                         <li class="nav-item"><a class="nav-link" href="/koleksi">Koleksi</a></li>
                         <li class="nav-item"><a class="nav-link" href="/kategori">Kategori</a></li> -->
-                        <li class="nav-item"><a class="nav-link" href="/contact-us">Login</a></li>
+                        <li class="nav-item"><a class="nav-link" href="/login">Login</a></li>
                     </ul>
                 </div>
                 <!-- /.navbar-collapse -->
