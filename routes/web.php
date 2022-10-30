@@ -17,6 +17,7 @@ use App\Http\Controllers\GaleryController;
 use App\Http\Controllers\GalleryController;
 use App\Http\Controllers\KategoriController;
 use App\Http\Controllers\KoleksiController;
+use App\Http\Controllers\GaleriController;
 
 /*
 |--------------------------------------------------------------------------
@@ -66,3 +67,7 @@ Route::resource('/koleksi', KoleksiController::class);
 Route::resource('/diskon', DiskonController::class);
 
 Route::get('/diskonku', [App\Http\Controllers\DiskonController::class, 'diskon'])->name('diskon');
+
+Route::resource('/galeri', GaleriController::class);
+
+Route::get('/galeriku', [App\Http\Controllers\GaleriController::class, 'galeri'])->name('galeri');
