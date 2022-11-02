@@ -17,8 +17,8 @@
                     <ul class="nav navbar-nav ml-auto" data-in="fadeInDown" data-out="fadeOutUp">
                         <li class="nav-item"><a class="nav-link" href="{{ ('/') }}">Home</a></li>
                         <li class="nav-item"><a class="nav-link" href="{{ ('/about') }}">About Us</a></li>
-                        <li class="nav-item"><a class="nav-link" href="{{ ('/gallery') }}">Gallery</a></li>
-                        <li class="nav-item"><a class="nav-link" href="{{ ('/gallery') }}">Menu</a></li>
+                        <li class="nav-item"><a class="nav-link" href="{{ ('/galeriku') }}">Gallery</a></li>
+                        <li class="nav-item"><a class="nav-link" href="{{ ('/menuku') }}">Menu</a></li>
                         <li class="nav-item"><a class="nav-link" href="{{ ('/diskonku') }}">Paket Diskon</a></li>
                         <li class="nav-item"><a class="nav-link" href="{{ ('/belum') }}">Reservasi</a></li>
                         <!-- <li class="dropdown">

@@ -42,27 +42,27 @@ Route::resource('/about', AboutController::class);
 
 Route::resource('/', HomepageController::class);
 
-Route::resource('/cart', CartController::class);
+// Route::resource('/cart', CartController::class);
 
-Route::resource('/checkout', CheckoutController::class);
+// Route::resource('/checkout', CheckoutController::class);
 
-Route::resource('/contact-us', ContactController::class);
+// Route::resource('/contact-us', ContactController::class);
 
-Route::resource('/my-account', MyAccountController::class);
+// Route::resource('/my-account', MyAccountController::class);
 
-Route::resource('/service', ServiceController::class);
+// Route::resource('/service', ServiceController::class);
 
-Route::resource('/shop', ShopController::class);
+// Route::resource('/shop', ShopController::class);
 
-Route::resource('/shop-detail', ShopDetailController::class);
+// Route::resource('/shop-detail', ShopDetailController::class);
 
-Route::resource('/wishlist', WishlistController::class);
+// Route::resource('/wishlist', WishlistController::class);
 
-Route::resource('/gallery', GalleryController::class);
+// Route::resource('/gallery', GalleryController::class);
 
-Route::resource('/kategori', KategoriController::class);
+// Route::resource('/kategori', KategoriController::class);
 
-Route::resource('/koleksi', KoleksiController::class);
+// Route::resource('/koleksi', KoleksiController::class);
 
 Route::resource('/diskon', DiskonController::class);
 
