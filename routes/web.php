@@ -18,6 +18,7 @@ use App\Http\Controllers\GalleryController;
 use App\Http\Controllers\KategoriController;
 use App\Http\Controllers\KoleksiController;
 use App\Http\Controllers\GaleriController;
+use App\Http\Controllers\MenuController;
 
 /*
 |--------------------------------------------------------------------------
@@ -71,3 +72,7 @@ Route::get('/diskonku', [App\Http\Controllers\DiskonController::class, 'diskon']
 Route::resource('/galeri', GaleriController::class);
 
 Route::get('/galeriku', [App\Http\Controllers\GaleriController::class, 'galeri'])->name('galeri');
+
+Route::resource('/menu', MenuController::class);
+
+Route::get('/menuku', [App\Http\Controllers\MenuController::class, 'menu'])->name('menu');
