@@ -33,20 +33,36 @@
     <!-- Start About Page  -->
     <div class="about-box-main">
         <div class="container">
-            <div class="row">
-				<div class="col-lg-6">
-                    @forelse ($menus as $menu)
-                </div>
-                <div class="col-lg-6">
-                    <h2 class="noo-sh-title-top">{{ $menu->nama }}</h2>
-                    <p>{{ $menu->harga }}</p>
-                </div>
-                @empty
-                    <div class="alert alert-danger">
-                    Belum ada menu yang tersedia. Terus Update untuk menu selanjutnya!!!
+            <section id="menu" class="menu">
+                <div class="container">
+                    <div class="row">
+                        <div class="col-lg-12 d-flex justify-content-center">
+                            <ul id="menu-flters">
+                                <li data-filter="*" class="filter-active">Show All</li>
+                                <li data-filter=".filter-starters" class="">Starters</li>
+                                <li data-filter=".filter-salads" class="">Salads</li>
+                                <li data-filter=".filter-specialty" class="">Specialty</li>
+                            </ul>
+                        </div>
                     </div>
-                @endforelse
-            </div>
+                    @forelse ($menus as $menu)
+                    <div class="row menu-container" style="position: relative; height: 675px;">
+                        <div class="col-lg-6" style="position: absolute; left: 0px; top: 0px;">
+                            <div class="menu-content"> 
+                                <a href="#">{{ $menu->nama }}</a><span>{{ $menu->harga }}</span>
+                            </div>
+                            <div class="menu-ingredients"> Lorem, deren, trataro, filede, nerada</div>
+                        @empty
+                        <div class="alert alert-danger">
+                        Belum ada menu yang tersedia. Terus Update untuk menu selanjutnya!!!
+                        </div>
+                        @endforelse
+                        </div>
+                    </div>
+                </div>
+            </section>
+
+
 
             <div class="row my-5">
                 <div class="col-sm-6 col-lg-4">
