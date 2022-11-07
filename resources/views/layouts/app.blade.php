@@ -24,9 +24,11 @@
     <!-- Fonts -->
     <link rel="dns-prefetch" href="//fonts.gstatic.com">
     <link href="https://fonts.bunny.net/css?family=Nunito" rel="stylesheet">
+    
 
     <!-- Scripts -->
     @vite(['resources/sass/app.scss', 'resources/js/app.js'])
+
 </head>
 <body>
     <div id="app">
@@ -42,7 +44,37 @@
                 <div class="collapse navbar-collapse" id="navbarSupportedContent">
                     <!-- Left Side Of Navbar -->
                     <ul class="navbar-nav me-auto">
+                        @can('user')
+                        <li class="nav-item"><a class="nav-link" href="{{ ('/') }}">Home</a></li>
+                        <li class="nav-item"><a class="nav-link" href="{{ ('/about') }}">About Us</a></li>
+                        <li class="nav-item"><a class="nav-link" href="{{ ('/galeriku') }}">Galeri</a></li>
+                        <li class="nav-item"><a class="nav-link" href="{{ ('/menuku') }}">Menu</a></li>
+                        <li class="nav-item"><a class="nav-link" href="{{ ('/diskonku') }}">Paket Diskon</a></li>
+                        <li class="nav-item"><a class="nav-link" href="{{ ('/belum') }}">Reservasi</a></li>
+                        @endcan
+                        
+                        @can('admin')
+                        <ul class="navbar-nav">
+                            <li class="nav-item">
+                                <a class="nav-link @if($title=='Manage') active @endif" href="#">Halaman Admin</a>
+                            </li>
+                            <li class="nav-item"><a class="nav-link" href="{{ ('/galeri') }}">K.Galeri</a></li>
+                            <li class="nav-item"><a class="nav-link" href="{{ ('/menu') }}">K.Menu</a></li>
+                            <li class="nav-item"><a class="nav-link" href="{{ ('/diskon') }}">K.Paket Diskon</a></li>
+                            <li class="nav-item"><a class="nav-link" href="{{ ('/belum') }}">K.Reservasi</a></li>
+                        </ul>
+                        @endcan
 
+                        @can('superadmin')
+                        <ul class="navbar-nav">
+                            <li class="nav-item">
+                                <a class="nav-link @if($title=='Manage') active @endif" href="#">Halaman Super Admin</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link @if($title=='Manage') active @endif" href="/manage">Kelola Admin</a>
+                            </li>
+                        </ul>
+                        @endcan
                     </ul>
 
                     <!-- Right Side Of Navbar -->

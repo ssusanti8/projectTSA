@@ -3,8 +3,12 @@
 namespace App\Http\Controllers;
 
 use Illuminate\Http\Request;
+use App\Models\User;
+use DB;
+use Image;
+use Illuminate\Support\Facades\Auth;
 
-class ShopController extends Controller
+class UserController extends Controller
 {
     /**
      * Display a listing of the resource.
@@ -13,12 +17,13 @@ class ShopController extends Controller
      */
     public function index()
     {
-        //
-        return view('shop.shop', [
-            'title' => 'Shop'
+        $users = User::all();
+        return view('manage.user.index', [
+            'users' => $users,
+            'title' => 'Users'
         ]);
-
     }
+    
 
     /**
      * Show the form for creating a new resource.
@@ -58,9 +63,13 @@ class ShopController extends Controller
      * @param  int  $id
      * @return \Illuminate\Http\Response
      */
-    public function edit($id)
+    public function edit(User $user)
     {
         //
+        return view('manage.user.edit', compact('user'), [
+
+            'title' => 'Users'
+        ]);
     }
 
     /**
@@ -70,9 +79,26 @@ class ShopController extends Controller
      * @param  int  $id
      * @return \Illuminate\Http\Response
      */
-    public function update(Request $request, $id)
+    public function update(Request $request, User $user)
     {
-        //
+        $this->validate($request, [
+            'name' => 'required',
+            'email' => 'required',
+            'password' => 'required',
+            'level' => 'required'
+
+        ]);
+
+        $user = User::findOrFail($user->id);
+
+        $user->update([
+            'name' => $request->name,
+            'email' => $request->email,
+            'password' => $request->password,
+            'level' => $request->level,
+        ]);
+        $user->save();
+        return redirect()->route('user.index');
     }
 
     /**
@@ -83,6 +109,8 @@ class ShopController extends Controller
      */
     public function destroy($id)
     {
-        //
+        $user = User::findOrFail($id);
+        $user->delete();
+        return redirect()->route('user.index');
     }
 }

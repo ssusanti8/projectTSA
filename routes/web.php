@@ -19,7 +19,7 @@ use App\Http\Controllers\KategoriController;
 use App\Http\Controllers\KoleksiController;
 use App\Http\Controllers\GaleriController;
 use App\Http\Controllers\MenuController;
-
+use App\Http\Controllers\UserController;
 /*
 |--------------------------------------------------------------------------
 | Web Routes
@@ -76,3 +76,24 @@ Route::get('/galeriku', [App\Http\Controllers\GaleriController::class, 'galeri']
 Route::resource('/menu', MenuController::class);
 
 Route::get('/menuku', [App\Http\Controllers\MenuController::class, 'menu'])->name('menu');
+
+
+
+// ADMIN
+Route::get('/manage', function () {
+    return view('manage.index', [
+        'title' => 'Manage'
+    ]);
+})->middleware('admin');
+
+Route::resource('/user', UserController::class)->middleware('admin');
+
+Route::middleware([
+    'auth:sanctum',
+    config('jetstream.auth_session'),
+    'verified'
+])->group(function () {
+    Route::get('/dashboard', function () {
+        return view('dashboard');
+    })->name('dashboard');
+});

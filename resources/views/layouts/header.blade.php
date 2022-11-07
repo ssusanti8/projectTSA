@@ -17,44 +17,17 @@
                     <ul class="nav navbar-nav ml-auto" data-in="fadeInDown" data-out="fadeOutUp">
                         <li class="nav-item"><a class="nav-link" href="{{ ('/') }}">Home</a></li>
                         <li class="nav-item"><a class="nav-link" href="{{ ('/about') }}">About Us</a></li>
-                        <li class="nav-item"><a class="nav-link" href="{{ ('/galeriku') }}">Gallery</a></li>
+                        <li class="nav-item"><a class="nav-link" href="{{ ('/galeriku') }}">Galeri</a></li>
                         <li class="nav-item"><a class="nav-link" href="{{ ('/menuku') }}">Menu</a></li>
                         <li class="nav-item"><a class="nav-link" href="{{ ('/diskonku') }}">Paket Diskon</a></li>
                         <li class="nav-item"><a class="nav-link" href="{{ ('/belum') }}">Reservasi</a></li>
-                        <!-- <li class="dropdown">
-                            <a href="/shop" class="nav-link dropdown-toggle arrow" data-toggle="dropdown">SHOP</a>
+                        <li class="dropdown">
+                            <a href="/login" class="nav-link dropdown-toggle" data-toggle="dropdown">Akun</a>
                             <ul class="dropdown-menu">
-								<li><a href="{{ ('/shop') }}">Sidebar Shop</a></li>
-								<li><a href="{{ ('/shop-detail') }}">Shop Detail</a></li>
-                                <li><a href="{{ ('/cart') }}">Cart</a></li>
-                                <li><a href="{{ ('/checkout') }}">Checkout</a></li>
-                                <li><a href="{{ ('/my-account') }}">My Account</a></li>
-                                <li><a href="{{ ('/wishlist') }}">Wishlist</a></li>
+								<li><a href="{{ ('/login') }}">Login</a></li>
+								<li><a href="{{ ('/register') }}">Register</a></li>
                             </ul>
                         </li>
-                        <li class="nav-item"><a class="nav-link" href="/gallery">Gallery</a></li>
-                        <li class="nav-item"><a class="nav-link" href="/koleksi">Koleksi</a></li>
-                        <li class="nav-item"><a class="nav-link" href="/kategori">Kategori</a></li> -->
-                        <li class="nav-item"><a class="nav-link" href="/login">Login</a></li>
-                    </ul>
-                </div>
-                <!-- /.navbar-collapse -->
-
-                <!-- Start Atribute Navigation -->
-                <div class="attr-nav">
-                    <ul>
-                        <li class="search"><a href="#"><i class="fa fa-search"></i></a></li>
-                        <li class="side-menu">
-                        <li class="side-menu">
-							<a href="#">
-								<i class="fa fa-shopping-bag"></i>
-								<span class="badge">3</span>
-								<p>My Cart</p>
-							</a>
-						</li>
-                    </ul>
-                </div>
-                <!-- End Atribute Navigation -->
             </div>
             <!-- Start Side Menu -->
             <div class="side">
