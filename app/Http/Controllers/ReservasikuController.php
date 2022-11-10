@@ -8,6 +8,7 @@ use Illuminate\Http\Request;
 use App\Models\Reservasi;
 use Illuminate\Support\Facades\Auth;
 use Illuminate\Support\Facades\Storage;
+use PDF;
 
 class ReservasikuController extends Controller
 {
@@ -200,5 +201,13 @@ class ReservasikuController extends Controller
             //redirect dengan pesan error
             return redirect()->route('reservasiku.index')->with(['error' => 'Data Gagal Dihapus!']);
         }
+    }
+
+    public function cetak_pdf()
+    {
+        $reservasis = Reservasi::all();
+    	$pdf = PDF::loadview('reservasiku.reservasi_pdf',compact('reservasis'));
+    	return $pdf->download('laporan-reservasi-pdf');
+        return $pdf->stream();
     }
 }

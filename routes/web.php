@@ -53,6 +53,8 @@ Route::resource('/reservasiku', ReservasikuController::class);
 
 // Route::get('/reservasiku', [App\Http\Controllers\ReservasiController::class, 'reservasi'])->name('reservasi');
 
+Route::get('/cetak_pdf', [App\Http\Controllers\ReservasikuController::class, 'cetak_pdf'])->name('cetak_pdf');
+
 
 // ADMIN
 Route::get('/manage', function () {
