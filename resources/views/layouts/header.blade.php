@@ -28,7 +28,9 @@
 								<li><a href="{{ ('/register') }}">Register</a></li>
                             </ul>
                         </li>
-            </div>
+                    </ul>
+                </div>
+
             <!-- Start Side Menu -->
             <div class="side">
                 <a href="#" class="close-side"><i class="fa fa-times"></i></a>

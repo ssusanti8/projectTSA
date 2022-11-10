@@ -17,11 +17,11 @@ class UserSeeder extends Seeder
     public function run()
     {
         User::create([
-            'name' => 'susi',
-            'email' => 'susanti@gmail.com',
-            'password' => bcrypt('12345678'),
+            'name' => 'SUSANTI SUPER ADMIN',
+            'email' => 'susantiSuperAdmin@gmail.com',
+            'password' => bcrypt('susanti1'),
             'nomerhp' => '085337250955',
-            'Level' => 'Administrator'
+            'Level' => 'SuperAdmin'
         ]);
     }
 }

@@ -64,59 +64,57 @@
             <div class="col-md-12">
                 <div class="card border-0 shadow rounded">
                     <div class="card-body">
-                        <a href="{{ route('diskon.create') }}" class="btn btn-md btn-success mb-3">TAMBAH DISKON</a>
-                        <table class="table table-bordered">
-                            <thead>
-                              <tr>
-                                <th scope="col">JUDUL</th>
-                                <th scope="col">GAMBAR</th>
-                                <th scope="col">DESKRIPSI</th>
-                                <th scope="col">AKSI</th>
-                              </tr>
-                            </thead>
-                            <tbody>
-                              @forelse ($diskons as $diskon)
-                                <tr>
-                                    <td>{{ $diskon->judul }}</td>
-                                    <td class="text-center">
-                                        <img src="{{ Storage::url('public/diskons/').$diskon->gambar }}" class="rounded" style="width: 150px">
-                                    </td>
-                                    <td>{{ $diskon->deskripsi }}</td>
-                                    <td class="text-center">
-                                        <form onsubmit="return confirm('Apakah Anda Yakin ?');" action="{{ route('diskon.destroy', $diskon->id) }}" method="POST">
-                                            <a href="{{ route('diskon.edit', $diskon->id) }}" class="btn btn-sm btn-primary">EDIT</a>
-                                            @csrf
-                                            @method('DELETE')
-                                            <button type="submit" class="btn btn-sm btn-danger">HAPUS</button>
-                                        </form>
-                                    </td>
-                                </tr>
-                              @empty
-                                  <div class="alert alert-danger">
-                                      Data diskon belum Tersedia.
-                                  </div>
-                              @endforelse
-                            </tbody>
-                          </table>  
-                          {{ $diskons->links() }}
+                    <form action="{{ route('reservasiku.update', $reservasiku->id) }}" method="post">                            
+                        @csrf
+                            @method('PUT')
+
+                            <div class="form-group">
+                                <label for="user_id">ID USER</label>
+                                <input type="text" class="form-control" readonly name="user_id" value="{{ old('user_id', $reservasiku->user_id) }}"></br>
+                            </div>
+                            <div class="form-group">
+                                <label for="tanggal">Tanggal</label>
+                                <input type="date" class="form-control" readonly name="tanggal" value="{{ old('tanggal', $reservasiku->tanggal) }}"></br>
+                            </div>
+                            <div class="form-group">
+                                <label for="waktu">Waktu</label>
+                                <input type="time" class="form-control" readonly name="waktu" value="{{ old('waktu', $reservasiku->waktu) }}"></br>
+                            </div>
+                            <div class="form-group">
+                                <label for="orang">Jumlah Orang</label>
+                                <input type="text" class="form-control" readonly name="orang" value="{{ old('orang', $reservasiku->orang) }}"></br>
+                            </div>
+                            <div class="form-group">
+                                <label for="spesial">Request</label>
+                                <input type="text" class="form-control" readonly name="spesial" value="{{ old('spesial', $reservasiku->spesial) }}"></br>
+                            </div>
+                            <!-- <div class="form-group">
+                                <label for="bukti">Bukti</label>
+                                <input type="file" class="form-control" readonly name="bukti" value="{{ old('bukti', $reservasiku->bukti) }}"></br>
+                            </div> -->
+                            <!-- <div class="form-group">
+                                <label for="meja">No Meja</label>
+                                <input type="text" class="form-control" required="required" name="meja" value="{{ old('meja', $reservasiku->meja) }}">
+                                <br>
+                            </div> -->
+                            <div class="form-group">
+                            <label class="font-weight-bold">Nomor Meja</label>
+                            <input type="text" class="form-control @error('meja') is-invalid @enderror" name="meja" value="{{ old('meja', $reservasiku->meja) }}" placeholder="Update nomor">
+
+                            <!-- error message untuk meja -->
+                            @error('meja')
+                            <div class="alert alert-danger mt-2">
+                                {{ $message }}
+                            </div>
+                            @enderror
+                        </div>
+                            <button type="submit" class="btn btn-md btn-primary">UPDATE</button>
+                            <!-- <button type="submit" name="edit" class="btn btn-primary float-right">SIMPAN</button> -->
+                        </form> 
                     </div>
                 </div>
             </div>
         </div>
     </div>
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
-    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
-    <script src="//cdnjs.cloudflare.com/ajax/libs/toastr.js/latest/toastr.min.js"></script>
-
-    <script>
-        //message with toastr
-        @if(session()->has('success'))
-        
-            toastr.success('{{ session('success') }}', 'BERHASIL!'); 
-
-        @elseif(session()->has('error'))
-
-            toastr.error('{{ session('error') }}', 'GAGAL!'); 
-            
-        @endif
-    </script>
+</body>
+</html>

@@ -21,9 +21,9 @@
             <input type="password" class="form-control" readonly name="password" value="{{ old('password', $user->password) }}"></br>
         </div>
         <div class="form-group">
-            <label for="roles">Level</label>
-            <select type="text" class="form-control" required="required" name="level" value="{{ old('roles', $user->level) }}">
-                <option>Administrator</option>
+            <label for="levels">Level</label>
+            <select type="text" class="form-control" required="required" name="level" value="{{ old('level', $user->level) }}">
+                <option>Admin</option>
                 <option>User</option>
             </select>
             <br>

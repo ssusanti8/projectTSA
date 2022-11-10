@@ -5,21 +5,13 @@ use App\Http\Controllers\HomeController;
 use App\Http\Controllers\AboutController;
 use App\Http\Controllers\HomepageController;
 use App\Http\Controllers\DiskonController;
-use App\Http\Controllers\CartController;
-use App\Http\Controllers\CheckoutController;
-use App\Http\Controllers\ContactController;
-use App\Http\Controllers\MyAccountController;
-use App\Http\Controllers\ServiceController;
-use App\Http\Controllers\ShopController;
-use App\Http\Controllers\ShopDetailController;
-use App\Http\Controllers\WishlistController;
-use App\Http\Controllers\GaleryController;
-use App\Http\Controllers\GalleryController;
-use App\Http\Controllers\KategoriController;
-use App\Http\Controllers\KoleksiController;
 use App\Http\Controllers\GaleriController;
 use App\Http\Controllers\MenuController;
 use App\Http\Controllers\UserController;
+use App\Http\Controllers\ReservasiController;
+use App\Http\Controllers\ReservasikuController;
+
+
 /*
 |--------------------------------------------------------------------------
 | Web Routes
@@ -43,28 +35,6 @@ Route::resource('/about', AboutController::class);
 
 Route::resource('/', HomepageController::class);
 
-// Route::resource('/cart', CartController::class);
-
-// Route::resource('/checkout', CheckoutController::class);
-
-// Route::resource('/contact-us', ContactController::class);
-
-// Route::resource('/my-account', MyAccountController::class);
-
-// Route::resource('/service', ServiceController::class);
-
-// Route::resource('/shop', ShopController::class);
-
-// Route::resource('/shop-detail', ShopDetailController::class);
-
-// Route::resource('/wishlist', WishlistController::class);
-
-// Route::resource('/gallery', GalleryController::class);
-
-// Route::resource('/kategori', KategoriController::class);
-
-// Route::resource('/koleksi', KoleksiController::class);
-
 Route::resource('/diskon', DiskonController::class);
 
 Route::get('/diskonku', [App\Http\Controllers\DiskonController::class, 'diskon'])->name('diskon');
@@ -77,6 +47,11 @@ Route::resource('/menu', MenuController::class);
 
 Route::get('/menuku', [App\Http\Controllers\MenuController::class, 'menu'])->name('menu');
 
+Route::resource('/reservasi', ReservasiController::class);
+
+Route::resource('/reservasiku', ReservasikuController::class);
+
+// Route::get('/reservasiku', [App\Http\Controllers\ReservasiController::class, 'reservasi'])->name('reservasi');
 
 
 // ADMIN
@@ -84,9 +59,9 @@ Route::get('/manage', function () {
     return view('manage.index', [
         'title' => 'Manage'
     ]);
-})->middleware('admin');
+})->middleware('superadmin');
 
-Route::resource('/user', UserController::class)->middleware('admin');
+Route::resource('/user', UserController::class);
 
 Route::middleware([
     'auth:sanctum',

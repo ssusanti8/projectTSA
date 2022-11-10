@@ -64,41 +64,48 @@
             <div class="col-md-12">
                 <div class="card border-0 shadow rounded">
                     <div class="card-body">
-                        <a href="{{ route('diskon.create') }}" class="btn btn-md btn-success mb-3">TAMBAH DISKON</a>
                         <table class="table table-bordered">
                             <thead>
                               <tr>
-                                <th scope="col">JUDUL</th>
-                                <th scope="col">GAMBAR</th>
-                                <th scope="col">DESKRIPSI</th>
-                                <th scope="col">AKSI</th>
+                                <th scope="col">ID User</th>
+                                <th scope="col">Tanggal</th>
+                                <th scope="col">Waktu</th>
+                                <th scope="col">Jumlah Orang</th>
+                                <th scope="col">Request</th>
+                                <th scope="col">Bukti</th>
+                                <th scope="col">No Meja</th>
+                                <th scope="col">Aksi</th>
                               </tr>
                             </thead>
                             <tbody>
-                              @forelse ($diskons as $diskon)
+                              @forelse ($reservasis as $reservasi)
                                 <tr>
-                                    <td>{{ $diskon->judul }}</td>
+                                    <td>{{ $reservasi->user_id }}</td>
+                                    <td>{{ $reservasi->tanggal }}</td>
+                                    <td>{{ $reservasi->waktu }}</td>
+                                    <td>{{ $reservasi->orang }}</td>
+                                    <td>{{ $reservasi->spesial }}</td>
                                     <td class="text-center">
-                                        <img src="{{ Storage::url('public/diskons/').$diskon->gambar }}" class="rounded" style="width: 150px">
-                                    </td>
-                                    <td>{{ $diskon->deskripsi }}</td>
+                                        <img src="{{ Storage::url('public/reservasis/').$reservasi->bukti }}" class="rounded" style="width: 150px">
+                                    </td> 
+                                    <td>{{ $reservasi->meja }}</td>  
                                     <td class="text-center">
-                                        <form onsubmit="return confirm('Apakah Anda Yakin ?');" action="{{ route('diskon.destroy', $diskon->id) }}" method="POST">
-                                            <a href="{{ route('diskon.edit', $diskon->id) }}" class="btn btn-sm btn-primary">EDIT</a>
+                                        <form onsubmit="return confirm('Apakah Anda Yakin ?');" action="{{ route('reservasiku.destroy', $reservasi->id) }}" method="POST">
+                                            <a href="{{ route('reservasiku.edit', $reservasi->id) }}" class="btn btn-sm btn-warning">EDIT</a>
                                             @csrf
                                             @method('DELETE')
                                             <button type="submit" class="btn btn-sm btn-danger">HAPUS</button>
                                         </form>
-                                    </td>
+                                    </td>                                 
                                 </tr>
                               @empty
                                   <div class="alert alert-danger">
-                                      Data diskon belum Tersedia.
+                                      Data reservasi belum Tersedia.
                                   </div>
                               @endforelse
                             </tbody>
                           </table>  
-                          {{ $diskons->links() }}
+                         
                     </div>
                 </div>
             </div>
@@ -120,3 +127,21 @@
             
         @endif
     </script>
+
+            </main>
+        </div>
+    </div>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/js/bootstrap.bundle.min.js" integrity="sha384-pprn3073KE6tl6bjs2QrFaJGz5/SUsLqktiwsUTF55Jfv3qYSDhgCecCxMW52nD2" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/feather-icons@4.28.0/dist/feather.min.js" integrity="sha384-uO3SXW5IuS1ZpFPKugNNWqTZRRglnUJK6UAZ/gxOX80nxEkN9NcGZTftn6RzhGWE" crossorigin="anonymous"></script>
+    <script src="/js/dashboard.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+    <script src="https://cdn.ckeditor.com/4.13.1/standard/ckeditor.js"></script>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+</body>
+
+</html>
+
+
+   
