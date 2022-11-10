@@ -23,7 +23,8 @@
                     <div class="row">
                         <div class="col-md-12">
                             <h1 class="m-b-20"><strong>Welcome To <br> NK Cafe Malang </strong></h1>
-                            <p class="m-b-40">See how your users experience your website in realtime or view <br> trends to see any changes in performance over time.</p>
+                            <p class="m-b-40">NK Cafe sebuah kawasan kuliner dengan suguhan panorama alamnya yang memanjakan mata. Berada di Ampeldento, Karangploso, Kabupaten Malang.<br>
+Hanya 3 menit dari Apartmen Begawan & Kampus UMM,  5 menit dari Kampus UNISMA, 10 menit dari Kampus UB & Kampus UIN.</p>
                         </div>
                     </div>
                 </div>
@@ -34,7 +35,8 @@
                     <div class="row">
                         <div class="col-md-12">
                             <h1 class="m-b-20"><strong>Welcome To <br> NK Cafe Malang </strong></h1>
-                            <p class="m-b-40">See how your users experience your website in realtime or view <br> trends to see any changes in performance over time.</p>
+                            <p class="m-b-40">NK Cafe sebuah kawasan kuliner dengan suguhan panorama alamnya yang memanjakan mata. Berada di Ampeldento, Karangploso, Kabupaten Malang.<br>
+Hanya 3 menit dari Apartmen Begawan & Kampus UMM,  5 menit dari Kampus UNISMA, 10 menit dari Kampus UB & Kampus UIN.</p>
                         </div>
                     </div>
                 </div>
@@ -45,7 +47,8 @@
                     <div class="row">
                         <div class="col-md-12">
                             <h1 class="m-b-20"><strong>Welcome To <br> NK Cafe Malang </strong></h1>
-                            <p class="m-b-40">See how your users experience your website in realtime or view <br> trends to see any changes in performance over time.</p>
+                            <p class="m-b-40">NK Cafe sebuah kawasan kuliner dengan suguhan panorama alamnya yang memanjakan mata. Berada di Ampeldento, Karangploso, Kabupaten Malang.<br>
+Hanya 3 menit dari Apartmen Begawan & Kampus UMM,  5 menit dari Kampus UNISMA, 10 menit dari Kampus UB & Kampus UIN.</p>
                         </div>
                     </div>
                 </div>

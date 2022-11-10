@@ -89,7 +89,7 @@
                                 </tr>
                               @empty
                                   <div class="alert alert-danger">
-                                      Data galeri belum Tersedia.
+                                      Data Menu belum Tersedia.
                                   </div>
                               @endforelse
                             </tbody>
