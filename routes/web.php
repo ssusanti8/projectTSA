@@ -9,7 +9,6 @@ use App\Http\Controllers\GaleriController;
 use App\Http\Controllers\MenuController;
 use App\Http\Controllers\UserController;
 use App\Http\Controllers\ReservasiController;
-use App\Http\Controllers\ReservasikuController;
 
 
 /*
@@ -49,11 +48,13 @@ Route::get('/menuku', [App\Http\Controllers\MenuController::class, 'menu'])->nam
 
 Route::resource('/reservasi', ReservasiController::class);
 
-Route::resource('/reservasiku', ReservasikuController::class);
+Route::get('/reservasiku', [App\Http\Controllers\ReservasiController::class, 'reservasi'])->name('reservasi');
+
+// Route::resource('/reservasiku', ReservasikuController::class);
 
 // Route::get('/reservasiku', [App\Http\Controllers\ReservasiController::class, 'reservasi'])->name('reservasi');
 
-Route::get('/cetak_pdf', [App\Http\Controllers\ReservasikuController::class, 'cetak_pdf'])->name('cetak_pdf');
+Route::get('/cetak_pdf', [App\Http\Controllers\ReservasiController::class, 'cetak_pdf'])->name('cetak_pdf');
 
 
 // ADMIN

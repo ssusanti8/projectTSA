@@ -50,7 +50,7 @@
                             <li class="nav-item"><a class="nav-link" href="{{ ('/galeri') }}">Galeri</a></li>
                             <li class="nav-item"><a class="nav-link" href="{{ ('/menu') }}">Menu</a></li>
                             <li class="nav-item"><a class="nav-link" href="{{ ('/diskon') }}">Paket Diskon</a></li>
-                            <li class="nav-item"><a class="nav-link" href="{{ ('/reservasiku') }}">Reservasi</a></li>
+                            <li class="nav-item"><a class="nav-link" href="{{ ('/reservasi') }}">Reservasi</a></li>
                         @endcan
             </li>
             
@@ -73,6 +73,7 @@
                                 <th scope="col">Waktu</th>
                                 <th scope="col">Jumlah Orang</th>
                                 <th scope="col">Request</th>
+                                <th scope="col">DP reservasi</th>
                                 <th scope="col">Bukti</th>
                                 <th scope="col">No Meja</th>
                                 <th scope="col">Aksi</th>
@@ -86,13 +87,14 @@
                                     <td>{{ $reservasi->waktu }}</td>
                                     <td>{{ $reservasi->orang }}</td>
                                     <td>{{ $reservasi->spesial }}</td>
+                                    <td>{{ $reservasi->total }}</td>
                                     <td class="text-center">
                                         <img src="{{ Storage::url('public/reservasis/').$reservasi->bukti }}" class="rounded" style="width: 150px">
                                     </td> 
                                     <td>{{ $reservasi->meja }}</td>  
                                     <td class="text-center">
-                                        <form onsubmit="return confirm('Apakah Anda Yakin ?');" action="{{ route('reservasiku.destroy', $reservasi->id) }}" method="POST">
-                                            <a href="{{ route('reservasiku.edit', $reservasi->id) }}" class="btn btn-sm btn-primary">EDIT</a>
+                                        <form onsubmit="return confirm('Apakah Anda Yakin ?');" action="{{ route('reservasi.destroy', $reservasi->id) }}" method="POST">
+                                            <a href="{{ route('reservasi.edit', $reservasi->id) }}" class="btn btn-sm btn-primary">EDIT</a>
                                             @csrf
                                             @method('DELETE')
                                             <button type="submit" class="btn btn-sm btn-danger">HAPUS</button>

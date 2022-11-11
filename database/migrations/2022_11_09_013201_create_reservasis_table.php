@@ -19,7 +19,7 @@ return new class extends Migration
             $table->time('waktu');
             $table->integer('orang');
             $table->string('spesial');
-            $table->integer('total');
+            $table->string('total');
             $table->string('bukti');
             $table->string('meja')->nullable();
             $table->foreignId('user_id')->references('id')->on('users')->onDelete('cascade');

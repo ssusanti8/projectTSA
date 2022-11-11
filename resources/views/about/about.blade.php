@@ -40,8 +40,8 @@
                 </div>
                 <div class="col-lg-6">
                     <h2 class="noo-sh-title-top">We are <span>NK Cafe Malang</span></h2>
-                    <p>Sebagai tempat wisata kuliner dengan konsep tematik alam, semenjak dibuka pada Agustus 2020, NK Cafe terus berbenah dan berkreasi untuk menambah serta melengkapi fasilitasnya.Bertujuan bagaimana caranya untuk memberikan kenyamanan bagi pengunjung / wisatawan yang datang. Sehingga, dalam kurun waktu sekitar 2 tahun sejak beroperasi, NK Cafe sudah bisa dikategorikan sebagai destinasi wisata kuliner yang kaya akan ragam aksi dan kreasi.Berada di sekitar areal persawahan yang luas, udara yang jernih, view yang cantik berupa pemandangan Gunung Arjuno, Gunung Kawi dan Gunung Panderman, merupakan daya tarik utama dari NK Cafe. Tak heran makin hari pengunjung semakin banyak, meskipun saat ini ada pembatasan jumlah karena wabah belum berakhir.</p>
-					<a class="btn hvr-hover" href="#">Read More</a>
+                    <p>Sebagai tempat wisata kuliner dengan konsep tematik alam, semenjak dibuka pada Agustus 2020, NK Cafe terus berbenah dan berkreasi untuk menambah serta melengkapi fasilitasnya.Bertujuan bagaimana caranya untuk memberikan kenyamanan bagi pengunjung / wisatawan yang datang. Sehingga, dalam kurun waktu sekitar 2 tahun sejak beroperasi, NK Cafe sudah bisa dikategorikan sebagai destinasi wisata kuliner yang kaya akan ragam aksi dan kreasi.Berada di sekitar areal persawahan yang luas, udara yang jernih, view yang cantik berupa pemandangan Gunung Arjuno, Gunung Kawi dan Gunung Panderman, merupakan daya tarik utama dari NK Cafe. Tak heran makin hari pengunjung semakin banyak, meskipun saat ini ada pembatasan jumlah karena wabah belum berakhir. Untuk itu, kmai menyediakan layanan reservasi untuk anda.</p>
+					<a class="btn hvr-hover" href="/register">Reservasi</a>
                 </div>
             </div>
             <div class="row my-5">

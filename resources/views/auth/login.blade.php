@@ -15,11 +15,14 @@
     <link rel="stylesheet" href="/css/style.css">
     <title>NK Cafe Malang | Login</title>
 </head>
-<div class="container">
-    <div class="row justify-content-center">
-        <div class="col-md-8">
-            <div class="card">
-                <div class="card-header">{{ __('Login') }}</div>
+<body style="background-image: url('/images/bg-login.jpg');">
+<br><br><br><br>
+    <div class="container mt-4">
+        <div class="row justify-content-center">
+            <div class="col-lg-4">
+            <div class="card px-3 py-5" style="background-color: #e4f5fe;">
+                    <main class="form-login">
+                        <h1 class="h3 mb-3 fw-normal text-center">LOGIN</h1>
 
                 <div class="card-body">
                     <form method="POST" action="{{ route('login') }}">
@@ -79,6 +82,8 @@
                             </div>
                         </div>
                     </form>
+                    <small class="d-block text-center mt-3">Not registered? <a href="/register">Register Now</a></small>
+                    <small class="d-block text-center mt-3">Back Home? <a href="/">Home</a></small>
                 </div>
             </div>
         </div>

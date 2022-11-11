@@ -20,7 +20,7 @@
                         <li class="nav-item"><a class="nav-link" href="{{ ('/galeriku') }}">Galeri</a></li>
                         <li class="nav-item"><a class="nav-link" href="{{ ('/menuku') }}">Menu</a></li>
                         <li class="nav-item"><a class="nav-link" href="{{ ('/diskonku') }}">Paket Diskon</a></li>
-                        <li class="nav-item"><a class="nav-link" href="{{ ('/belum') }}">Reservasi</a></li>
+                        <!-- <li class="nav-item"><a class="nav-link" href="{{ ('/belum') }}">Reservasi</a></li> -->
                         <li class="dropdown">
                             <a href="/login" class="nav-link dropdown-toggle" data-toggle="dropdown">Akun</a>
                             <ul class="dropdown-menu">

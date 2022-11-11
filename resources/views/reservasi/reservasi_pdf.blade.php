@@ -21,7 +21,7 @@
 					<th>Waktu</th>
 					<th>Jumlah</th>
 					<th>Request</th>
-					<th>Total</th>
+					<th>DP reservasi</th>
 				</tr>
 			</thead>
 			<tbody>

@@ -15,13 +15,16 @@
     <link rel="stylesheet" href="/css/style.css">
     <title>NK Cafe Malang | Register</title>
 </head>
-<div class="container">
-    <div class="row justify-content-center">
-        <div class="col-md-8">
-            <div class="card">
-                <div class="card-header">{{ __('Register') }}</div>
-
-                <div class="card-body">
+<body style="background-image: url('/images/bg-register.jpg');">
+<div class="container mt-4">
+        <div class="row justify-content-center">
+            <div class="col-lg-5">
+                <div class="card px-3 py-5" style="background-color: #e4f5ea;">
+                    <main class="form-registration">
+                        <h1 class="h3 mb-3 fw-normal text-center">Registration</h1>
+                        <div class="alert alert-info">
+                            <small>Jika ingin melakukan registrasi silahkan melakukan register terlebih dahulu <b>atau bisa Login jika sudah punya akun</b></small><br>
+                        </div>
                     <form method="POST" action="{{ route('register') }}">
                         @csrf
 
@@ -91,9 +94,12 @@
 
                         <div class="row mb-0">
                             <div class="col-md-6 offset-md-4">
-                                <button type="submit" class="btn btn-primary">
+                            <button type="submit" class="w-100 btn btn-lg btn-primary mt-3">{{ __('Register') }}</button>
+                            <small class="d-block text-center mt-3">Already registered? <a href="/login">Login</a></small>
+                            <small class="d-block text-center mt-3">Back Home? <a href="/">Home</a></small>
+                                <!-- <button type="submit" class="btn btn-primary">
                                     {{ __('Register') }}
-                                </button>
+                                </button> -->
                             </div>
                         </div>
                     </form>

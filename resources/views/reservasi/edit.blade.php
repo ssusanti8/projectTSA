@@ -50,7 +50,7 @@
                             <li class="nav-item"><a class="nav-link" href="{{ ('/galeri') }}">Galeri</a></li>
                             <li class="nav-item"><a class="nav-link" href="{{ ('/menu') }}">Menu</a></li>
                             <li class="nav-item"><a class="nav-link" href="{{ ('/diskon') }}">Paket Diskon</a></li>
-                            <li class="nav-item"><a class="nav-link" href="{{ ('/reservasiku') }}">Reservasi</a></li>
+                            <li class="nav-item"><a class="nav-link" href="{{ ('/reservasi') }}">Reservasi</a></li>
                         @endcan
             </li>
             
@@ -88,10 +88,10 @@
                                 <label for="spesial">Request</label>
                                 <input type="text" class="form-control" readonly name="spesial" value="{{ $reservasi->spesial }}"></br>
                             </div>
-                            <!-- <div class="form-group">
-                                <label for="bukti">Bukti</label>
-                                <input type="file" class="form-control" readonly name="bukti" value="{{ old('bukti', $reservasi->bukti) }}"></br>
-                            </div> -->
+                            <div class="form-group">
+                                <label for="total">DP Reservasi</label>
+                                <input type="text" class="form-control" readonly name="total" value="{{ $reservasi->total }}"></br>
+                            </div>
                             <div class="form-group">
                                 <label class="font-weight-bold">Nomor Meja</label>
                                 <input type="text" class="form-control @error('meja') is-invalid @enderror" name="meja" value="{{ old('meja', $reservasi->meja) }}" placeholder="Update nomor">

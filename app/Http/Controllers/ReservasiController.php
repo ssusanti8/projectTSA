@@ -9,6 +9,7 @@ use App\Models\User;
 use App\Models\Reservasi;
 use Illuminate\Support\Facades\Auth;
 use Illuminate\Support\Facades\Storage;
+use PDF;
 
 class ReservasiController extends Controller
 {
@@ -18,19 +19,21 @@ class ReservasiController extends Controller
      * @return \Illuminate\Http\Response
      */
 
-    // public function reservasi()
-    // {
-    //     $reservasis = Reservasi::all();
-    //     return view('reservasi.reservasi', [
-    //         'reservasis' => $reservasis,
-    //         'title' => 'Reservasi'
-    //     ]);
-    // }
+    public function reservasi()
+    {
+        $reservasis = Reservasi::all();
+        return view('reservasi.reservasi', [
+            'reservasis' => $reservasis,
+            'title' => 'Reservasi'
+        ]);
+    }
 
     public function index()
     {
         $user_id = Auth::user()->id;
-        $reservasis = DB::table('reservasis')->where('user_id', $user_id)->paginate(10);
+        // $reservasis = Reservasi::all();
+        // $reservasis = DB::table('reservasis')->where('user_id', $user_id)->paginate(10);
+        $reservasis = Reservasi::where('user_id', $user_id)->paginate(10);
         return view('reservasi.index', compact('reservasis'), [
             'title' => 'Reservasi'
         ]);
@@ -107,17 +110,14 @@ class ReservasiController extends Controller
      * @param  int  $id
      * @return \Illuminate\Http\Response
      */
+    
     public function edit(Reservasi $reservasi)
     {
-        // $user_id = Auth::user()->id;
-        // $users = DB::table('users')->where('id', $user_id)->paginate(10);
-        // return view('reservasi.edit', [
-        //     'title' => 'Edit Reservasi'
-        // ]);
-        return view('reservasi.edit', compact('reservasi'), [
-            'title' => 'Reservasis'
+        $user_id = Auth::user()->id;
+        $users = DB::table('users')->where('id', $user_id)->paginate(1);
+        return view('reservasi.edit', compact('users', 'reservasi'), [
+            'title' => 'Edit Reservasi'
         ]);
-        
     }
 
     /**
@@ -129,7 +129,9 @@ class ReservasiController extends Controller
      */
     public function update(Request $request, Reservasi $reservasi)
     {
+
         $this->validate($request, [
+            
             'tanggal'     => 'required',
             'waktu'       => 'required',
             'orang'       => 'required',
@@ -141,21 +143,46 @@ class ReservasiController extends Controller
         $reservasi = Reservasi::findOrFail($reservasi->id);
     
             $reservasi->update([
-                'user_id' => Auth::user()->id,
+                // 'user_id' => Auth::user()->id,
                 'tanggal'   => $request->tanggal,
                 'waktu'     => $request->waktu,
                 'orang'     => $request->orang,
                 'spesial'   => $request->spesial,
                 'meja'     => $request->meja,
             ]);
-    
+            
         if($reservasi){
             //redirect dengan pesan sukses
-            return redirect()->route('reservasiku.index')->with(['success' => 'Data Berhasil Disimpan!']);
+            return redirect()->route('reservasi.index')->with(['success' => 'Data Berhasil Disimpan!']);
         }else{
             //redirect dengan pesan error
-            return redirect()->route('reservasiku.index')->with(['error' => 'Data Gagal Disimpan!']);
+            return redirect()->route('reservasi.index')->with(['error' => 'Data Gagal Disimpan!']);
         }
+
+
+        // $this->validate($request, [
+        //     'tanggal'     => 'required',
+        //     'waktu'       => 'required',
+        //     'orang'       => 'required',
+        //     'spesial'     => 'required',
+        //     'total'       => 'required',
+        //     'bukti'       => 'required|image|mimes:png,jpg,jpeg',
+        //     'meja'       => 'required'
+
+        // ]);
+
+        // $reservasi = Reservasi::findOrFail($reservasi->id);
+
+        // $reservasi->update([
+        //     'tanggal'   => $request->tanggal,
+        //     'waktu'     => $request->waktu,
+        //     'orang'     => $request->orang,
+        //     'spesial'   => $request->spesial,
+        //     'total'     => $request->total,
+        //     'meja'     => $request->meja,
+        // ]);
+        // $reservasi->save();
+        // return redirect()->route('reservasi');
     }
 
     /**
@@ -172,10 +199,18 @@ class ReservasiController extends Controller
 
         if($reservasi){
             //redirect dengan pesan sukses
-            return redirect()->route('reservasiku.index')->with(['success' => 'Data Berhasil Dihapus!']);
+            return redirect()->route('reservasi.index')->with(['success' => 'Data Berhasil Dihapus!']);
         }else{
             //redirect dengan pesan error
-            return redirect()->route('reservasiku.index')->with(['error' => 'Data Gagal Dihapus!']);
+            return redirect()->route('reservasi.index')->with(['error' => 'Data Gagal Dihapus!']);
         }
+    }
+
+    public function cetak_pdf()
+    {
+        $reservasis = Reservasi::all();
+    	$pdf = PDF::loadview('reservasi.reservasi_pdf',compact('reservasis'));
+    	return $pdf->download('laporan-reservasi-pdf');
+        return $pdf->stream();
     }
 }
