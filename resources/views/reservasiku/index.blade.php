@@ -90,8 +90,8 @@
                                     </td> 
                                     <td>{{ $reservasi->meja }}</td>  
                                     <td class="text-center">
-                                        <form onsubmit="return confirm('Apakah Anda Yakin ?');" action="{{ route('reservasiku.destroy', $reservasi->id) }}" method="POST">
-                                            <a href="{{ route('reservasiku.edit', $reservasi->id) }}" class="btn btn-sm btn-warning">EDIT</a>
+                                        <form onsubmit="return confirm('Apakah Anda Yakin ?');" action="{{ route('reservasi.destroy', $reservasi->id) }}" method="POST">
+                                            <a href="{{ route('reservasi.edit', $reservasi->id) }}" class="btn btn-sm btn-primary">EDIT</a>
                                             @csrf
                                             @method('DELETE')
                                             <button type="submit" class="btn btn-sm btn-danger">HAPUS</button>

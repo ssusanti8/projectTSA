@@ -58,8 +58,8 @@
     </div>
 
 </nav>
-            <main class="col-md-9 ms-sm-auto col-lg-10 px-md-4">
-            <div class="container mt-5">
+<main class="col-md-9 ms-sm-auto col-lg-10 px-md-4">
+    <div class="container mt-5">
         <div class="row">
             <div class="col-md-12">
                 <div class="card border-0 shadow rounded">
@@ -107,5 +107,6 @@
             </div>
         </div>
     </div>
+</main>
 </body>
 </html>

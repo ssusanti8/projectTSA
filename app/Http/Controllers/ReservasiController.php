@@ -134,15 +134,11 @@ class ReservasiController extends Controller
             'waktu'       => 'required',
             'orang'       => 'required',
             'spesial'     => 'required',
-            'total'       => 'required',
-            'bukti'       => 'required|image|mimes:png,jpg,jpeg',
             'meja'       => 'required'
         ]);
     
         //get data Reservasi by ID
         $reservasi = Reservasi::findOrFail($reservasi->id);
-    
-        if($request->file('bukti') == "") {
     
             $reservasi->update([
                 'user_id' => Auth::user()->id,
@@ -150,37 +146,15 @@ class ReservasiController extends Controller
                 'waktu'     => $request->waktu,
                 'orang'     => $request->orang,
                 'spesial'   => $request->spesial,
-                'total'     => $request->total,
                 'meja'     => $request->meja,
             ]);
     
-        } else {
-    
-            //hapus old image
-            Storage::disk('local')->delete('public/reservasis/'.$reservasi->bukti);
-    
-            //upload new image
-            $bukti = $request->file('bukti');
-            $bukti->storeAs('public/reservasis', $bukti->hashName());
-    
-            $reservasi->update([
-                'tanggal'   => $request->tanggal,
-                'waktu'     => $request->waktu,
-                'orang'     => $request->orang,
-                'spesial'   => $request->spesial,
-                'total'     => $request->total,
-                'bukti'     => $bukti->hashName(),
-                'meja'     => $request->meja
-            ]);
-    
-        }
-        $reservasi->save();
         if($reservasi){
             //redirect dengan pesan sukses
-            return redirect()->route('reservasi.reservasi')->with(['success' => 'Data Berhasil Disimpan!']);
+            return redirect()->route('reservasiku.index')->with(['success' => 'Data Berhasil Disimpan!']);
         }else{
             //redirect dengan pesan error
-            return redirect()->route('reservasi.reservasi')->with(['error' => 'Data Gagal Disimpan!']);
+            return redirect()->route('reservasiku.index')->with(['error' => 'Data Gagal Disimpan!']);
         }
     }
 
