@@ -52,12 +52,14 @@ class MenuController extends Controller
     {
         $this->validate($request, [
             'nama'     => 'required',
-            'harga' => 'required'
+            'harga' => 'required',
+            'deskripsi' => 'required'
         ]);
 
         $menu = Menu::create([
             'nama' => $request->nama,
-            'harga'     => $request->harga
+            'harga'     => $request->harga,
+            'deskripsi' => $request->deskripsi
         ]);
 
         if($menu){
@@ -104,7 +106,8 @@ class MenuController extends Controller
     {
         $this->validate($request, [
             'nama'     => 'required',
-            'harga'         => 'required'
+            'harga'         => 'required',
+            'deskripsi' => 'required'
         ]);
 
         //get data Menu by ID
@@ -112,7 +115,8 @@ class MenuController extends Controller
 
             $menu->update([
                 'nama' => $request->nama,
-                'harga'     => $request->harga
+                'harga'     => $request->harga,
+                'deskripsi' => $deskripsi->deskripsi
             ]);
 
         if($menu){

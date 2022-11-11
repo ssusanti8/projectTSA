@@ -51,7 +51,7 @@
                             <div class="menu-content"> 
                                 <a href="#">{{ $menu->nama }}</a><span>{{ $menu->harga }}</span>
                             </div>
-                            <div class="menu-ingredients"> Lorem, deren, trataro, filede, nerada</div>
+                            <div class="menu-ingredients"> {{ $menu->deskripsi }}</div>
                         @empty
                         <div class="alert alert-danger">
                         Belum ada menu yang tersedia. Terus Update untuk menu selanjutnya!!!
@@ -62,7 +62,7 @@
                 </div>
             </section>
 
-            <div class="row my-5">
+<div class="row my-5">
                 <div class="col-sm-6 col-lg-4">
                     <div class="service-block-inner">
                         <h3>We are Trusted</h3>

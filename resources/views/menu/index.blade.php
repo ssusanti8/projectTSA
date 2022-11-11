@@ -70,6 +70,7 @@
                               <tr>
                                 <th scope="col">NAMA</th>
                                 <th scope="col">HARGA</th>
+                                <th scope="col">DESKRIPSI</th>
                                 <th scope="col">AKSI</th>
                               </tr>
                             </thead>
@@ -78,6 +79,7 @@
                                 <tr>
                                     <td>{{ $menu->nama }}</td>
                                     <td>{{ $menu->harga }}</td>
+                                    <td>{{ $menu->deskripsi }}</td>
                                     <td class="text-center">
                                         <form onsubmit="return confirm('Apakah Anda Yakin ?');" action="{{ route('menu.destroy', $menu->id) }}" method="POST">
                                             <a href="{{ route('menu.edit', $menu->id) }}" class="btn btn-sm btn-primary">EDIT</a>
