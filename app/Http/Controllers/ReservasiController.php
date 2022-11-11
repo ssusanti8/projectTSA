@@ -172,10 +172,10 @@ class ReservasiController extends Controller
 
         if($reservasi){
             //redirect dengan pesan sukses
-            return redirect()->route('reservasi.index')->with(['success' => 'Data Berhasil Dihapus!']);
+            return redirect()->route('reservasiku.index')->with(['success' => 'Data Berhasil Dihapus!']);
         }else{
             //redirect dengan pesan error
-            return redirect()->route('reservasi.index')->with(['error' => 'Data Gagal Dihapus!']);
+            return redirect()->route('reservasiku.index')->with(['error' => 'Data Gagal Dihapus!']);
         }
     }
 }
