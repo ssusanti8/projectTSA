@@ -200,7 +200,7 @@ Hanya 3 menit dari Apartmen Begawan & Kampus UMM,  5 menit dari Kampus UNISMA, 1
                 <div class="col-lg-12">
                     <div class="title-all text-center">
                         <h1>LIGHT IN NIGHT</h1>
-                        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed sit amet lacus enim.</p>
+                        <p>Hiasan lampu yang indah pada pemandangan malam hari akan menyegarkan jiwa.</p>
                     </div>
                 </div>
             </div>
@@ -212,14 +212,14 @@ Hanya 3 menit dari Apartmen Begawan & Kampus UMM,  5 menit dari Kampus UNISMA, 1
                         </div>
                         <div class="blog-content">
                             <div class="title-blog">
-                                <h3>Fusce in augue non nisi fringilla</h3>
-                                <p>Nulla ut urna egestas, porta libero id, suscipit orci. Quisque in lectus sit amet urna dignissim feugiat. Mauris molestie egestas pharetra. Ut finibus cursus nunc sed mollis. Praesent laoreet lacinia elit id lobortis.</p>
+                                <h3>Suasana Siang Hari</h3>
+                                <p>Pemandangan malam hari dengan suasana malang yang sejuk dapat membuat hati tenang</p>
                             </div>
-                            <ul class="option-blog">
+                            <!-- <ul class="option-blog">
                                 <li><a href="#"><i class="far fa-heart"></i></a></li>
                                 <li><a href="#"><i class="fas fa-eye"></i></a></li>
                                 <li><a href="#"><i class="far fa-comments"></i></a></li>
-                            </ul>
+                            </ul> --> -->
                         </div>
                     </div>
                 </div>
@@ -230,14 +230,14 @@ Hanya 3 menit dari Apartmen Begawan & Kampus UMM,  5 menit dari Kampus UNISMA, 1
                         </div>
                         <div class="blog-content">
                             <div class="title-blog">
-                                <h3>Fusce in augue non nisi fringilla</h3>
-                                <p>Nulla ut urna egestas, porta libero id, suscipit orci. Quisque in lectus sit amet urna dignissim feugiat. Mauris molestie egestas pharetra. Ut finibus cursus nunc sed mollis. Praesent laoreet lacinia elit id lobortis.</p>
+                                <h3>Suasana Sore Hari</h3>
+                                <p>Kilauan lampu yang indah menambah keindahan pemandangan di NK Cafe</p>
                             </div>
-                            <ul class="option-blog">
+                            <!-- <ul class="option-blog">
                                 <li><a href="#"><i class="far fa-heart"></i></a></li>
                                 <li><a href="#"><i class="fas fa-eye"></i></a></li>
                                 <li><a href="#"><i class="far fa-comments"></i></a></li>
-                            </ul>
+                            </ul> -->
                         </div>
                     </div>
                 </div>
@@ -248,14 +248,14 @@ Hanya 3 menit dari Apartmen Begawan & Kampus UMM,  5 menit dari Kampus UNISMA, 1
                         </div>
                         <div class="blog-content">
                             <div class="title-blog">
-                                <h3>Fusce in augue non nisi fringilla</h3>
-                                <p>Nulla ut urna egestas, porta libero id, suscipit orci. Quisque in lectus sit amet urna dignissim feugiat. Mauris molestie egestas pharetra. Ut finibus cursus nunc sed mollis. Praesent laoreet lacinia elit id lobortis.</p>
+                                <h3>Suasana Malam Hari</h3>
+                                <p>Pemandangan luar ruangan dengan udara yang segar akan mengurangi stress dan menambah ketenangan jiwa</p>
                             </div>
-                            <ul class="option-blog">
+                            <!-- <ul class="option-blog">
                                 <li><a href="#"><i class="far fa-heart"></i></a></li>
                                 <li><a href="#"><i class="fas fa-eye"></i></a></li>
                                 <li><a href="#"><i class="far fa-comments"></i></a></li>
-                            </ul>
+                            </ul> -->
                         </div>
                     </div>
                 </div>

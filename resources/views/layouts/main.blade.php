@@ -124,7 +124,7 @@
 
     <!-- Start copyright  -->
     <div class="footer-copyright">
-        <p class="footer-company">All Rights Reserved. &copy; 2022 <a href="#">Sell House</a> recycle Design By :
+        <p class="footer-company">All Rights Reserved. &copy; 2022 <a href="#">NK Cafe Malang</a> recycle Design By :
             <a href="https://html.design/">SUSANTI - NOVELYA - MAYZURA</a></p>
     </div>
     <!-- End copyright  -->

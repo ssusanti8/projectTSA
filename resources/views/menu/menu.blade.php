@@ -62,25 +62,23 @@
                 </div>
             </section>
 
-
-
             <div class="row my-5">
                 <div class="col-sm-6 col-lg-4">
                     <div class="service-block-inner">
                         <h3>We are Trusted</h3>
-                        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. </p>
+                        <p>Kami terpecaya, dengan memberikan menu yang halal sehingga dapat disantap oleh semua kalangan </p>
                     </div>
                 </div>
                 <div class="col-sm-6 col-lg-4">
                     <div class="service-block-inner">
                         <h3>We are Professional</h3>
-                        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. </p>
+                        <p>Pelayanan yang sudah berpengalaman, tidak akan mengecewakan para pengunjung NK Cafe </p>
                     </div>
                 </div>
                 <div class="col-sm-6 col-lg-4">
                     <div class="service-block-inner">
                         <h3>We are Expert</h3>
-                        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. </p>
+                        <p>Hiburan live music dan lainnya dapat menambah kenyamanan pengujung NK Cafe </p>
                     </div>
                 </div>
             </div>
@@ -111,7 +109,7 @@
                             <div class="icon"> <i class="fa fa-plus" aria-hidden="true"></i> </div>
                         </div>
                         <div class="team-description">
-                            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Praesent urna diam, maximus ut ullamcorper quis, placerat id eros. Duis semper justo sed condimentum rutrum. Nunc tristique purus turpis. Maecenas vulputate. </p>
+                            <p>Pemandangan malam hari dengan suasana malang yang sejuk dapat membuat hati tenang </p>
                         </div>
                         <hr class="my-0"> </div>
                 </div>
@@ -137,7 +135,7 @@
                             <div class="icon"> <i class="fa fa-plus" aria-hidden="true"></i> </div>
                         </div>
                         <div class="team-description">
-                            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Praesent urna diam, maximus ut ullamcorper quis, placerat id eros. Duis semper justo sed condimentum rutrum. Nunc tristique purus turpis. Maecenas vulputate. </p>
+                            <p>Kilauan lampu yang indah menambah keindahan pemandangan di NK Cafe</p>
                         </div>
                         <hr class="my-0"> </div>
                 </div>
@@ -163,7 +161,7 @@
                             <div class="icon"> <i class="fa fa-plus" aria-hidden="true"></i> </div>
                         </div>
                         <div class="team-description">
-                            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Praesent urna diam, maximus ut ullamcorper quis, placerat id eros. Duis semper justo sed condimentum rutrum. Nunc tristique purus turpis. Maecenas vulputate. </p>
+                            <p>Pemandangan luar ruangan dengan udara yang segar akan mengurangi stress dan menambah ketenangan jiwa </p>
                         </div>
                         <hr class="my-0"> </div>
                 </div>
