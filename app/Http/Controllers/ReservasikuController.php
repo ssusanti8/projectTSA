@@ -104,15 +104,11 @@ class ReservasikuController extends Controller
             'waktu'       => 'required',
             'orang'       => 'required',
             'spesial'     => 'required',
-            'total'       => 'required',
-            'bukti'       => 'required|image|mimes:png,jpg,jpeg',
             'meja'       => 'required'
         ]);
     
         //get data Reservasi by ID
         $reservasiku = Reservasi::findOrFail($reservasiku->id);
-    
-        if($request->file('bukti') == "") {
     
             $reservasiku->update([
                 'user_id' => Auth::user()->id,
@@ -120,31 +116,9 @@ class ReservasikuController extends Controller
                 'waktu'     => $request->waktu,
                 'orang'     => $request->orang,
                 'spesial'   => $request->spesial,
-                'total'     => $request->total,
                 'meja'     => $request->meja,
             ]);
-    
-        } else {
-    
-            //hapus old image
-            Storage::disk('local')->delete('public/reservasis/'.$reservasiku->bukti);
-    
-            //upload new image
-            $bukti = $request->file('bukti');
-            $bukti->storeAs('public/reservasis', $bukti->hashName());
-    
-            $reservasiku->update([
-                'tanggal'   => $request->tanggal,
-                'waktu'     => $request->waktu,
-                'orang'     => $request->orang,
-                'spesial'   => $request->spesial,
-                'total'     => $request->total,
-                'bukti'     => $bukti->hashName(),
-                'meja'     => $request->meja
-            ]);
-    
-        }
-        $reservasiku->save();
+            
         if($reservasiku){
             //redirect dengan pesan sukses
             return redirect()->route('reservasiku.index')->with(['success' => 'Data Berhasil Disimpan!']);
