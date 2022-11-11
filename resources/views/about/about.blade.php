@@ -40,7 +40,7 @@
                 </div>
                 <div class="col-lg-6">
                     <h2 class="noo-sh-title-top">We are <span>NK Cafe Malang</span></h2>
-                    <p>Sebagai tempat wisata kuliner dengan konsep tematik alam, semenjak dibuka pada Agustus 2020, NK Cafe terus berbenah dan berkreasi untuk menambah serta melengkapi fasilitasnya.Bertujuan bagaimana caranya untuk memberikan kenyamanan bagi pengunjung / wisatawan yang datang. Sehingga, dalam kurun waktu sekitar 2 tahun sejak beroperasi, NK Cafe sudah bisa dikategorikan sebagai destinasi wisata kuliner yang kaya akan ragam aksi dan kreasi.</p>
+                    <p>Sebagai tempat wisata kuliner dengan konsep tematik alam, semenjak dibuka pada Agustus 2020, NK Cafe terus berbenah dan berkreasi untuk menambah serta melengkapi fasilitasnya.Bertujuan bagaimana caranya untuk memberikan kenyamanan bagi pengunjung / wisatawan yang datang. Sehingga, dalam kurun waktu sekitar 2 tahun sejak beroperasi, NK Cafe sudah bisa dikategorikan sebagai destinasi wisata kuliner yang kaya akan ragam aksi dan kreasi.Berada di sekitar areal persawahan yang luas, udara yang jernih, view yang cantik berupa pemandangan Gunung Arjuno, Gunung Kawi dan Gunung Panderman, merupakan daya tarik utama dari NK Cafe. Tak heran makin hari pengunjung semakin banyak, meskipun saat ini ada pembatasan jumlah karena wabah belum berakhir.</p>
 					<a class="btn hvr-hover" href="#">Read More</a>
                 </div>
             </div>
@@ -48,19 +48,19 @@
                 <div class="col-sm-6 col-lg-4">
                     <div class="service-block-inner">
                         <h3>We are Trusted</h3>
-                        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. </p>
+                        <p>Kami terpecaya, dengan memberikan menu yang halal sehingga dapat disantap oleh semua kalangan </p>
                     </div>
                 </div>
                 <div class="col-sm-6 col-lg-4">
                     <div class="service-block-inner">
                         <h3>We are Professional</h3>
-                        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. </p>
+                        <p>Pelayanan yang sudah berpengalaman, tidak akan mengecewakan para pengunjung NK Cafe </p>
                     </div>
                 </div>
                 <div class="col-sm-6 col-lg-4">
                     <div class="service-block-inner">
                         <h3>We are Expert</h3>
-                        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. </p>
+                        <p>Hiburan live music dan lainnya dapat menambah kenyamanan pengujung NK Cafe </p>
                     </div>
                 </div>
             </div>
@@ -91,7 +91,7 @@
                             <div class="icon"> <i class="fa fa-plus" aria-hidden="true"></i> </div>
                         </div>
                         <div class="team-description">
-                            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Praesent urna diam, maximus ut ullamcorper quis, placerat id eros. Duis semper justo sed condimentum rutrum. Nunc tristique purus turpis. Maecenas vulputate. </p>
+                            <p>Pemandangan malam hari dengan suasana malang yang sejuk dapat membuat hati tenang </p>
                         </div>
                         <hr class="my-0"> </div>
                 </div>
@@ -117,7 +117,7 @@
                             <div class="icon"> <i class="fa fa-plus" aria-hidden="true"></i> </div>
                         </div>
                         <div class="team-description">
-                            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Praesent urna diam, maximus ut ullamcorper quis, placerat id eros. Duis semper justo sed condimentum rutrum. Nunc tristique purus turpis. Maecenas vulputate. </p>
+                            <p>Kilauan lampu yang indah menambah keindahan pemandangan di NK Cafe</p>
                         </div>
                         <hr class="my-0"> </div>
                 </div>
@@ -143,7 +143,7 @@
                             <div class="icon"> <i class="fa fa-plus" aria-hidden="true"></i> </div>
                         </div>
                         <div class="team-description">
-                            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Praesent urna diam, maximus ut ullamcorper quis, placerat id eros. Duis semper justo sed condimentum rutrum. Nunc tristique purus turpis. Maecenas vulputate. </p>
+                            <p>Pemandangan luar ruangan dengan udara yang segar akan mengurangi stress dan menambah ketenangan jiwa </p>
                         </div>
                         <hr class="my-0"> </div>
                 </div>
