@@ -12,10 +12,16 @@ class GaleriController extends Controller
 {
     public function galeri()
     {
-        $galeris = Galeri::latest()->paginate(10);
+        $galeris = Galeri::all();
         return view('galeri.galeri', compact('galeris'), [
             'title' => 'Galeri'
         ]);
+
+        // $users = User::all();
+        // return view('user.index', [
+        //     'users' => $users,
+        //     'title' => 'Users'
+        // ]);
     }
 
     public function index()
