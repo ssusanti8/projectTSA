@@ -213,13 +213,8 @@ Hanya 3 menit dari Apartmen Begawan & Kampus UMM,  5 menit dari Kampus UNISMA, 1
                         <div class="blog-content">
                             <div class="title-blog">
                                 <h3>Suasana Siang Hari</h3>
-                                <p>Pemandangan malam hari dengan suasana malang yang sejuk dapat membuat hati tenang</p>
-                            </div>
-                            <!-- <ul class="option-blog">
-                                <li><a href="#"><i class="far fa-heart"></i></a></li>
-                                <li><a href="#"><i class="fas fa-eye"></i></a></li>
-                                <li><a href="#"><i class="far fa-comments"></i></a></li>
-                            </ul> --> -->
+                                <p>Pemandangan siang hari dengan suasana malang yang sejuk dapat membuat hati tenang dan mendungnya awan yang bikin adem</p>
+                            </div>                         
                         </div>
                     </div>
                 </div>
@@ -231,13 +226,8 @@ Hanya 3 menit dari Apartmen Begawan & Kampus UMM,  5 menit dari Kampus UNISMA, 1
                         <div class="blog-content">
                             <div class="title-blog">
                                 <h3>Suasana Sore Hari</h3>
-                                <p>Kilauan lampu yang indah menambah keindahan pemandangan di NK Cafe</p>
+                                <p>Kilauan lampu yang indah menambah keindahan pemandangan di NK Cafe serta dinginnya angin yang menyapa</p>
                             </div>
-                            <!-- <ul class="option-blog">
-                                <li><a href="#"><i class="far fa-heart"></i></a></li>
-                                <li><a href="#"><i class="fas fa-eye"></i></a></li>
-                                <li><a href="#"><i class="far fa-comments"></i></a></li>
-                            </ul> -->
                         </div>
                     </div>
                 </div>
@@ -251,11 +241,6 @@ Hanya 3 menit dari Apartmen Begawan & Kampus UMM,  5 menit dari Kampus UNISMA, 1
                                 <h3>Suasana Malam Hari</h3>
                                 <p>Pemandangan luar ruangan dengan udara yang segar akan mengurangi stress dan menambah ketenangan jiwa</p>
                             </div>
-                            <!-- <ul class="option-blog">
-                                <li><a href="#"><i class="far fa-heart"></i></a></li>
-                                <li><a href="#"><i class="fas fa-eye"></i></a></li>
-                                <li><a href="#"><i class="far fa-comments"></i></a></li>
-                            </ul> -->
                         </div>
                     </div>
                 </div>

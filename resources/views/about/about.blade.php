@@ -95,6 +95,7 @@
                         </div>
                         <hr class="my-0"> </div>
                 </div>
+                
                 <div class="col-sm-6 col-lg-3">
                     <div class="hover-team">
                         <div class="our-team"> <img src="images/nksore.jpg" alt="" />
@@ -145,7 +146,9 @@
                         <div class="team-description">
                             <p>Pemandangan luar ruangan dengan udara yang segar akan mengurangi stress dan menambah ketenangan jiwa </p>
                         </div>
-                        <hr class="my-0"> </div>
+                        <hr class="my-0"> 
+                    </div>
+                    
                 </div>
                 <!-- <div class="col-sm-6 col-lg-3">
                     <div class="hover-team">

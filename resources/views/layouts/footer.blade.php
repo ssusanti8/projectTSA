@@ -106,7 +106,7 @@
 									<input class="" type="email" name="Email" placeholder="Klik Button Dibawah untuk menghubungi via WA*" />
 									<i class="fa fa-envelope"></i>
 								</div>
-								<button href="api.whatsapp.com/send?phone=6281333071823&text=Halo+NK+Cafe+Malang%0ASaya+mau+reservasi+dong" class="btn hvr-hover" type="submit">Klik Disini</button>
+								<button href="https://api.whatsapp.com/send?phone=6285337250955&text=Halo%20Selamat%20Datang%20Di%20Toko%20Kami" class="btn hvr-hover" type="submit">Klik Disini</button>
 							</form>
 						</div>
 					</div>
