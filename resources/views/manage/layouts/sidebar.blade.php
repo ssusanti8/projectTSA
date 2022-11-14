@@ -1,9 +1,8 @@
-<nav id="sidebarMenu" class="col-md-3 col-lg-2 d-md-block bg-light sidebar position-fixed collapse">
+<nav id="sidebarMenu">
     <div class="position-sticky pt-3">
         <ul class="nav flex-column">
-            <a class="sidebar-heading d-flex justify-content-between align-items-center px-3 mt-3 mb-1 text-muted border-bottom" aria-current="page" href="/linksosmed">
-                <span data-feather="arrow-left" class="align-text-bottom" style="font-weight: bold;"></span>
-                ---
+            <a class="sidebar-heading d-flex justify-content-between align-items-center px-3 mt-3 mb-1 text-muted border-bottom" aria-current="page" href="/home"> 
+            <span data-feather="arrow-center" class="align-text-bottom" style="font-weight: bold;">DASHBOARD</span>
             </a>
             <li class="nav-item">
 
@@ -33,9 +32,5 @@
                                 Users
                             </a>
                         @endcan
-            </li>
             
-        </ul>
-    </div>
-
 </nav>

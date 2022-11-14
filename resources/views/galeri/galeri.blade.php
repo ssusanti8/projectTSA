@@ -30,25 +30,38 @@
     </div>
     <!-- End All Title Box -->
 
-    <!-- Start About Page  -->
-    <div class="about-box-main">
+    
+
+
+            <!-- Start Gallery  -->
+    <div class="products-box">
         <div class="container">
             <div class="row">
-				<div class="col-lg-6">
-                    @forelse ($galeris as $galeri)
-                    <div class="banner-frame"> <img class="img-fluid" src="{{ Storage::url('public/galeris/').$galeri->gambar }}" alt="" />
+                <div class="col-lg-12">
+                    <div class="title-all text-center">
+                        <h1>Our Gallery</h1>
+                        <p>Banyak Spot Foto dan Pemandangan Menarik Loh.</p>
                     </div>
                 </div>
-                <div class="col-lg-6">
-                    <h2 class="noo-sh-title-top">{{ $galeri->judul }}</h2>
-                    <p>{{ $galeri->deskripsi }}</p>
-                </div>
-                @empty
-                    <div class="alert alert-danger">
-                    Belum ada galeri yang tersedia. Terus Update untuk galeri selanjutnya!!!
-                    </div>
-                @endforelse
             </div>
+    
+                            @forelse ($galeris as $galeri)
+                            <center>
+                            <b><h1>{{ $galeri->judul}}</h1></b>                           
+                            <img style="border:0px; width:500px; height:250px;" src="{{ Storage::url('public/galeris/').$galeri->gambar }}"/>                 
+                            <p>{{ $galeri->deskripsi }}</p>
+                            </center>
+                            &nbsp;
+                            @empty
+                                <div class="alert alert-danger">
+                                Belum ada galeri yang tersedia. Terus Update untuk galeri selanjutnya!!!
+                                </div>
+                            @endforelse
+        </div>
+    </div>
+
+
+
 
             <div class="row my-5">
                 <div class="col-sm-6 col-lg-4">
