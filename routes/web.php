@@ -56,6 +56,7 @@ Route::get('/reservasiku', [App\Http\Controllers\ReservasiController::class, 're
 
 Route::get('/cetak_pdf', [App\Http\Controllers\ReservasiController::class, 'cetak_pdf'])->name('cetak_pdf');
 
+// Route::get('/search', [ReservasiController::class, 'search'])->name('search');
 
 // ADMIN
 Route::get('/manage', function () {

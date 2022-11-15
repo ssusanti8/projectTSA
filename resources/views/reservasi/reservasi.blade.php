@@ -63,7 +63,16 @@
                 <div class="card border-0 shadow rounded">
                     <div class="card-body">
                     <a href="{{ ('/cetak_pdf') }}" class="btn btn-md btn-success mb-3">Cetak PDF Reservasi</a>
+
                         <table class="table table-bordered">
+
+                        <!-- <form class="form" method="get" action="{{ route('search') }}">
+    <div class="form-group w-100 mb-3">
+        <label for="search" class="d-block mr-2">Pencarian</label>
+        <input type="text" name="search" class="form-control w-75 d-inline" id="search" placeholder="Masukkan keyword">
+        <button type="submit" class="btn btn-primary mb-1">Cari</button>
+    </div>
+</form> -->
                             <thead>
                               <tr>
                                 <th scope="col">ID User</th>

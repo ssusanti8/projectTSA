@@ -41,6 +41,18 @@ class ReservasiController extends Controller
         ]);
     }
 
+    // public function search(Request $request)
+    // {
+    //     $keyword = $request->search;
+    //     $users = User::where('name', 'like', "%" . $keyword . "%")->paginate(5);
+    //     $reservasis = User::where('name', 'like', "%" . $keyword . "%")->paginate(5);
+    //     return view('reservasi.index', compact('users'), [
+    //         'title' => 'Cari Reservasi',
+    //         'reservasis' => $reservasis,
+    //     ])->with('i', (request()->input('page', 1) - 1) * 5) ;
+       
+    // }
+
     /**
      * Show the form for creating a new resource.
      *
