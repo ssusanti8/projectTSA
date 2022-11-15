@@ -1267,4 +1267,8 @@
       transform: rotate(360deg);
     }
   }
-  
+.table table-bordered {
+    /* width: 300px; */
+	margin: 0px;
+  padding: 20px;
+  }

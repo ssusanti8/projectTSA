@@ -6,13 +6,14 @@
 </head>
 <body>
  
-	<div class="container">
+	<div class="table table-bordered">
 		<center>
 			<h4>LAPORAN RESERVASI NK CAFE MALANG</h4>
 			<!-- <h5><a target="_blank" href="https://www.malasngoding.com/membuat-laporan-…n-dompdf-laravel/">www.malasngoding.com</a></h5> -->
 		</center>
 		<br/>
 		<!-- <a href="/reservasiku/reservasi_pdf" class="btn btn-primary" target="_blank">CETAK PDF</a> -->
+		<left>
 		<table class='table table-bordered'>
 			<thead>
 				<tr>
@@ -42,7 +43,7 @@
 				@endforeach
 			</tbody>
 		</table>
- 
+</left>
 	</div>
  
 </body>
