@@ -17,6 +17,8 @@
 			<thead>
 				<tr>
 					<th>No</th>
+					<th>Nama</th>
+					<th>Handphone</th>
 					<th>Tanggal</th>
 					<th>Waktu</th>
 					<th>Jumlah</th>
@@ -29,6 +31,8 @@
 				@foreach($reservasis as $p)
 				<tr>
 					<td>{{ $i++ }}</td>
+					<td>{{$p->user->name}}</td>
+					<td>{{$p->user->nomerhp}}</td>
 					<td>{{$p->tanggal}}</td>
 					<td>{{$p->waktu}}</td>
 					<td>{{$p->orang}}</td>

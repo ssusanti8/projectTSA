@@ -67,6 +67,8 @@
                             <thead>
                               <tr>
                                 <th scope="col">ID User</th>
+                                <th scope="col">Nama</th>
+                                <th scope="col">No. HP</th>
                                 <th scope="col">Tanggal</th>
                                 <th scope="col">Waktu</th>
                                 <th scope="col">Jumlah Orang</th>
@@ -81,6 +83,8 @@
                               @forelse ($reservasis as $reservasi)
                                 <tr>
                                     <td>{{ $reservasi->user_id }}</td>
+                                    <td>{{ $reservasi->user->name }}</td>
+                                    <td>{{ $reservasi->user->nomerhp }}</td>
                                     <td>{{ $reservasi->tanggal }}</td>
                                     <td>{{ $reservasi->waktu }}</td>
                                     <td>{{ $reservasi->orang }}</td>

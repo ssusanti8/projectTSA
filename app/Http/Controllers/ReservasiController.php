@@ -21,9 +21,11 @@ class ReservasiController extends Controller
 
     public function reservasi()
     {
+        $user_id = Auth::user()->id;
         $reservasis = Reservasi::all();
         return view('reservasi.reservasi', [
             'reservasis' => $reservasis,
+            'users' => User::with('reservasis')->whereId(auth()->user()->id)->first(),
             'title' => 'Reservasi'
         ]);
     }
@@ -208,9 +210,12 @@ class ReservasiController extends Controller
 
     public function cetak_pdf()
     {
+        $user_id = Auth::user()->id;
         $reservasis = Reservasi::all();
     	$pdf = PDF::loadview('reservasi.reservasi_pdf',compact('reservasis'));
-    	return $pdf->download('laporan-reservasi-pdf');
+    	return $pdf->download('laporan-reservasi-pdf', [            
+        'users' => User::with('reservasis')->whereId(auth()->user()->id)->first(),
+        ]);
         return $pdf->stream();
     }
 }
