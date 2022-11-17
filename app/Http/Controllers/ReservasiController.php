@@ -45,8 +45,8 @@ class ReservasiController extends Controller
     // {
     //     $keyword = $request->search;
     //     $users = User::where('name', 'like', "%" . $keyword . "%")->paginate(5);
-    //     $reservasis = User::where('name', 'like', "%" . $keyword . "%")->paginate(5);
-    //     return view('reservasi.index', compact('users'), [
+    //     $reservasis = Reservasi::all();
+    //     return view('reservasi.reservasi', compact('users'), [
     //         'title' => 'Cari Reservasi',
     //         'reservasis' => $reservasis,
     //     ])->with('i', (request()->input('page', 1) - 1) * 5) ;

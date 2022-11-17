@@ -128,6 +128,13 @@
                             </div>
 
                             <div class="form-group">
+                                <label class="font-weight-bold">Pembayaran</label>
+                                <p> Pembayaran Bisa dilakukan melalui Transfer </p>
+                                <p> NO. REK: 5221 8430 2924 8031 </p>
+                                <p> An.    : NK CAFE MALANG </p>                                
+                            </div>
+
+                            <div class="form-group">
                                 <label class="font-weight-bold">Bukti Pembayaran</label>
                                 <input type="file" class="form-control @error('bukti') is-invalid @enderror" name="bukti">
                             
